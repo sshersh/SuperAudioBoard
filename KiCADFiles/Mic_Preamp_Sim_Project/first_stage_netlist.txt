@@ -1,0 +1,49 @@
+.title KiCad schematic
+.model __Q2 PNP
+.model __Q1 PNP
+.save all
+.probe alli
+.probe p(R2)
+.probe p(R3)
+.probe p(L2)
+.probe p(V2)
+.probe p(L1)
+.probe p(Q2)
+.probe p(C4)
+.probe p(Q1)
+.probe p(R7)
+.probe p(Rg)
+.probe p(R9)
+.probe p(R8)
+.probe p(R5)
+.probe p(R4)
+.probe p(V4)
+.probe p(C1)
+.probe p(C3)
+.probe p(C2)
+.probe p(V5)
+.probe p(V1)
+.probe p(R1)
+.tran 10u 1 100m 10u uic
+R2 /IN_N Net-_L2-Pad1_ 100
+R3 /IN_P Net-_L1-Pad1_ 100
+L2 Net-_L2-Pad1_ /VCOM 160m
+V2 /VCOM GND DC 2.5 
+L1 Net-_L1-Pad1_ /VCOM 160m
+Q2 /OUT_P /IN_P Net-_Q2-E_ __Q2
+C4 Net-_Q2-E_ Net-_C4-Pad2_ 100u
+Q1 /OUT_N /IN_N Net-_Q1-E_ __Q1
+R7 Net-_Q1-E_ Net-_R7-Pad2_ 33
+Rg Net-_R7-Pad2_ Net-_C4-Pad2_ 5k
+R9 Net-_Q2-E_ Net-_R8-Pad2_ 15k
+R8 Net-_Q1-E_ Net-_R8-Pad2_ 15k
+R5 /OUT_P GND 4.7k
+R4 /OUT_N GND 4.7k
+V4 Net-_R8-Pad2_ GND DC 5 
+C1 Net-_C1-Pad1_ Net-_C1-Pad2_ 1n
+C3 /IN_N Net-_C1-Pad2_ 100u
+C2 /IN_P Net-_C1-Pad1_ 100u
+V5 Net-_C1-Pad1_ GND DC 0 SIN( 0 1m 1k 0 0 0 ) AC 1  
+V1 Net-_C1-Pad2_ GND DC 0 SIN( 0 -1m 1k 0 0 0 ) AC 1  
+R1 Net-_C1-Pad1_ Net-_C1-Pad2_ 3k
+.end

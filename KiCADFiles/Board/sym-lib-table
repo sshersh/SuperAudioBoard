@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SuperAudioBoard")(type "Legacy")(uri "${KIPRJMOD}/SuperAudioBoard-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,397 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "01f65e03-4e05-4001-87b4-b3e88e4198ab")
+	(paper "A4")
+	(title_block
+		(title "24 bit audio board for Teensy 3.x")
+		(date "10 may 2015")
+		(rev "0.1a")
+		(company "RF William Hollender")
+	)
+	(lib_symbols)
+	(text "(c) 2015 by RF William Hollender (whollender@gmail.com)\nLicensed under Creative Commons CC-BY-SA-NC v4.0\nNot for commercial use"
+		(exclude_from_sim no)
+		(at 81.534 34.798 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3547e9d-1e02-4780-b129-d8d5d536a63c")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 185.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7627b7d6-e82e-4a0a-907b-30eb4fb3de0e")
+	)
+	(wire
+		(pts
+			(xy 151.13 74.93) (xy 185.42 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804d459a-d07d-43bf-9605-ac91ff0a07a1")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a240a43-eeaf-48ee-842a-555f414e7063")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aaba703-c73d-430a-834c-2b7cfa6026de")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9befc0bd-c73d-4ea8-9c81-02c39c569b0d")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0b8c53-5ce6-4748-af43-4616a69b7e78")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0135a53-1f64-431c-81b1-b88e80df4ace")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f9e5fa-59ca-4286-b004-40f2d5c2c4d7")
+	)
+	(sheet
+		(at 185.42 59.69)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005438b6cb")
+		(property "Sheetname" "TeensyAndDigital"
+			(at 185.42 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TeensyAndDigital.kicad_sch"
+			(at 185.42 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 185.42 63.5 180)
+			(uuid "3c60fd25-39c5-4e5c-b73f-d59d96baf118")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 185.42 67.31 180)
+			(uuid "4d2682e2-bea7-4286-9a75-dd6a074bb5b1")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_DATA" input
+			(at 185.42 71.12 180)
+			(uuid "f0a6f551-50e6-47a2-99ed-cac0de2ee0e5")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_DATA" output
+			(at 185.42 86.36 180)
+			(uuid "435f7edf-9437-4922-babe-5562d0040215")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RSTN" output
+			(at 185.42 90.17 180)
+			(uuid "95ff7152-229c-4286-bfc8-bda9a241be5d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRCLK" bidirectional
+			(at 185.42 74.93 180)
+			(uuid "b77f1b42-34cf-4143-b123-c71c9e06e72d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "BCLK" bidirectional
+			(at 185.42 78.74 180)
+			(uuid "65cb01f4-787d-4af7-aef3-8d7e865c01a9")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" bidirectional
+			(at 185.42 82.55 180)
+			(uuid "8dc374b3-fd5d-46d6-8b02-709e026c0721")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 59.69)
+		(size 39.37 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005438c479")
+		(property "Sheetname" "CodecAndAnalog"
+			(at 111.76 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CodecAndAnalog.kicad_sch"
+			(at 111.76 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCLK" bidirectional
+			(at 151.13 82.55 0)
+			(uuid "0a133759-291e-453f-80f8-fbc19d554b32")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "LRCLK" bidirectional
+			(at 151.13 74.93 0)
+			(uuid "ccf8d94a-0a3d-42d0-91d0-d1ab73cdd012")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "BCLK" bidirectional
+			(at 151.13 78.74 0)
+			(uuid "9f7e1269-97d2-4a5b-91dd-4c879225bf67")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_DATA" output
+			(at 151.13 71.12 0)
+			(uuid "5e413aef-98c8-4d28-a3d5-31ab26c52db4")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_DATA" input
+			(at 151.13 86.36 0)
+			(uuid "b96a0a08-1122-41f0-8895-904bb3501902")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 151.13 67.31 0)
+			(uuid "47bdb508-e36e-4f13-b5b1-1c6a1a7d3c26")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 151.13 63.5 0)
+			(uuid "e5b59763-a2a8-4756-a269-e8e039064564")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST_N" input
+			(at 151.13 90.17 0)
+			(uuid "ea5dbf88-3580-4284-be9e-c2514172ab98")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 58.42)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000054459109")
+		(property "Sheetname" "PowerSupply"
+			(at 43.18 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 43.18 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AudioBoardLib")(type "KiCad")(uri "/home/sam-shersher/SuperAudioBoard/KiCADFiles/Libraries/AudioBoardLib.kicad_sym")(options "")(descr ""))
+)
