@@ -665,6 +665,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:OPA1655D"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA1655D"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1655.pdf"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA1655D_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OPA1655D_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 2.54 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CONN_3_1"
 			(pin_names
 				(offset 1.016)
@@ -1290,154 +1526,6 @@
 				)
 			)
 			(symbol "CP1_1_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.572)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CP1_10"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CP1"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP* SM*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP1_10_0_0"
-				(text "+"
-					(at -1.27 2.54 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-			)
-			(symbol "CP1_10_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -1.27)
-					(mid 0 -0.5009)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP1_10_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 3.81)
@@ -11640,227 +11728,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OPA2348_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 8.89 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "OPA2348"
-				(at 10.16 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPA2348_3_0_1"
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 -6.35) (xy 11.43 0) (xy 0 6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 3.81 12.7 270)
-					(length 7.62)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 3.81 -12.7 90)
-					(length 7.62)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA2348_3_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 7.62)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 7.62)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 0 180)
-					(length 7.62)
-					(name "Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA2348_3_2_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 7.62)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 7.62)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 0 180)
-					(length 7.62)
-					(name "Out"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "R_1"
 			(pin_numbers
 				(hide yes)
@@ -13181,6 +13048,12 @@
 		(uuid "03293f5a-b2ad-4ab5-8cdb-b66eed48ade8")
 	)
 	(junction
+		(at 78.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "042d952b-2b46-4359-8f43-b12a2338b68f")
+	)
+	(junction
 		(at 257.81 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13191,12 +13064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eb4835c-2629-4a3f-ae10-330b139706a5")
-	)
-	(junction
-		(at 78.74 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1025cc03-153f-44a9-beb0-4e06ba15b408")
 	)
 	(junction
 		(at 25.4 181.61)
@@ -13271,12 +13138,6 @@
 		(uuid "5f75be8e-f8a5-4449-ad5b-e1332d646cd2")
 	)
 	(junction
-		(at 100.33 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "608e0a9e-88dd-477e-ad9f-e1a4c80ff8df")
-	)
-	(junction
 		(at 90.17 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13335,6 +13196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0654aaf-4289-4403-b983-aaccc39d0573")
+	)
+	(junction
+		(at 100.33 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ab1b93-33c1-4704-b7ec-f705cbf8f896")
 	)
 	(junction
 		(at 162.56 41.91)
@@ -13524,16 +13391,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 214.63 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1dd42a-4382-4804-b7b6-f14bdf867262")
-	)
-	(wire
-		(pts
 			(xy 257.81 69.85) (xy 267.97 69.85)
 		)
 		(stroke
@@ -13584,16 +13441,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 41.91) (xy 100.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27fc95ff-639a-4759-9e0e-fd8909240638")
-	)
-	(wire
-		(pts
 			(xy 73.66 29.21) (xy 48.26 29.21)
 		)
 		(stroke
@@ -13624,7 +13471,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 81.28 123.19)
+			(xy 78.74 123.19) (xy 81.28 123.19)
 		)
 		(stroke
 			(width 0)
@@ -13724,7 +13571,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 153.67) (xy 214.63 156.21)
+			(xy 214.63 148.59) (xy 214.63 156.21)
 		)
 		(stroke
 			(width 0)
@@ -14024,6 +13871,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 125.73) (xy 214.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d26c161-d342-4fc3-afc4-f1b69427259c")
+	)
+	(wire
+		(pts
 			(xy 227.33 40.64) (xy 232.41 40.64)
 		)
 		(stroke
@@ -14034,13 +13891,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 123.19) (xy 69.85 123.19)
+			(xy 60.96 123.19) (xy 73.66 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5eeab506-b915-4e6c-8c33-660abe6546bd")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd56a4f-baf1-458b-ac4a-2ec96990905a")
 	)
 	(wire
 		(pts
@@ -14101,16 +13968,6 @@
 			(type default)
 		)
 		(uuid "66463b71-c8f9-471b-9a22-62a4e11e83f9")
-	)
-	(wire
-		(pts
-			(xy 100.33 38.1) (xy 100.33 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6680a736-6b6e-4aa7-bfa3-ab7cebb75054")
 	)
 	(wire
 		(pts
@@ -14184,7 +14041,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 140.97) (xy 199.39 140.97)
+			(xy 195.58 140.97) (xy 204.47 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14231,6 +14088,16 @@
 			(type default)
 		)
 		(uuid "7a65bc5d-72a6-4310-b919-b2fc927cfcba")
+	)
+	(wire
+		(pts
+			(xy 219.71 138.43) (xy 228.6 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abe26a5-ba22-4095-93e8-ece77b8f63d2")
 	)
 	(wire
 		(pts
@@ -14314,16 +14181,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 38.1) (xy 78.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849094a9-0656-41a9-adfc-76ad814e12ec")
-	)
-	(wire
-		(pts
 			(xy 105.41 81.28) (xy 101.6 81.28)
 		)
 		(stroke
@@ -14331,6 +14188,16 @@
 			(type default)
 		)
 		(uuid "877de665-1738-450e-a49b-f47dac30fd7e")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884ef3cb-bc30-49f9-bda4-48994a8b7562")
 	)
 	(wire
 		(pts
@@ -14464,16 +14331,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 41.91) (xy 78.74 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99972a9f-bf34-4794-a48b-6bf6201e2994")
-	)
-	(wire
-		(pts
 			(xy 161.29 73.66) (xy 161.29 176.53)
 		)
 		(stroke
@@ -14504,6 +14361,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 43.18) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed3f7cb-fcee-49a6-a7f1-375d95260b03")
+	)
+	(wire
+		(pts
 			(xy 149.86 66.04) (xy 146.05 66.04)
 		)
 		(stroke
@@ -14511,16 +14378,6 @@
 			(type default)
 		)
 		(uuid "9edf84f1-9cb1-4d0c-a2f4-be06545f0059")
-	)
-	(wire
-		(pts
-			(xy 226.06 143.51) (xy 228.6 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19b6028-bb33-474f-b102-5c9e323b7381")
 	)
 	(wire
 		(pts
@@ -14604,16 +14461,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 78.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b956e082-e347-4714-a68a-e8bd52d2c27b")
-	)
-	(wire
-		(pts
 			(xy 90.17 25.4) (xy 100.33 25.4)
 		)
 		(stroke
@@ -14671,16 +14518,6 @@
 			(type default)
 		)
 		(uuid "c526025d-51a8-4ad3-9f06-adede5d257ff")
-	)
-	(wire
-		(pts
-			(xy 166.37 27.94) (xy 166.37 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58b45ec-9ae7-4cc9-9923-a0f2ff40e0aa")
 	)
 	(wire
 		(pts
@@ -14751,6 +14588,16 @@
 			(type default)
 		)
 		(uuid "cfe368e1-7e0c-4101-b8d6-08685c5b09a7")
+	)
+	(wire
+		(pts
+			(xy 100.33 38.1) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01168ad-22be-4c47-b4f5-7a07b6fd0b1e")
 	)
 	(wire
 		(pts
@@ -14894,16 +14741,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 138.43) (xy 226.06 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0fce778-6ad2-4e54-8cac-07f98624e3c9")
-	)
-	(wire
-		(pts
 			(xy 156.21 19.05) (xy 156.21 22.86)
 		)
 		(stroke
@@ -14911,6 +14748,16 @@
 			(type default)
 		)
 		(uuid "e1cd2dd8-40a8-46d0-ba64-ce99da71e8a5")
+	)
+	(wire
+		(pts
+			(xy 219.71 143.51) (xy 228.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e952a3-7a6c-4440-8039-19d66f0f121b")
 	)
 	(wire
 		(pts
@@ -14951,6 +14798,16 @@
 			(type default)
 		)
 		(uuid "e3f8c9f0-f1c8-44bb-8c76-a73d7bfae8e7")
+	)
+	(wire
+		(pts
+			(xy 166.37 27.94) (xy 166.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45a952b-c012-4048-a71e-db64c22257ca")
 	)
 	(wire
 		(pts
@@ -15084,7 +14941,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 41.91) (xy 166.37 40.64)
+			(xy 166.37 38.1) (xy 166.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -15134,7 +14991,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 41.91) (xy 100.33 41.91)
+			(xy 83.82 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa74d205-e33d-471e-80cf-6d1b2123ff77")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 100.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -15298,7 +15165,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000544c1e6e")
 		(property "Reference" "U5"
 			(at 125.73 46.99 0)
@@ -15316,7 +15183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.74x4.75mm"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -15358,7 +15225,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CS4272"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 125.73 67.31 0)
 			(effects
 				(font
@@ -15463,7 +15339,7 @@
 	(symbol
 		(lib_name "CRYSTAL_2")
 		(lib_id "SuperAudioBoard-rescue:CRYSTAL")
-		(at 90.17 41.91 0)
+		(at 91.44 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15471,23 +15347,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000544c1e7d")
 		(property "Reference" "X1"
-			(at 90.17 38.1 0)
+			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "CRYSTAL"
-			(at 90.17 45.72 0)
+		(property "Value" "24.576 MHz 20 pF"
+			(at 91.44 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
-			(at 90.17 41.91 0)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15495,7 +15371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 41.91 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15503,7 +15379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 41.91 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +15387,7 @@
 			)
 		)
 		(property "MFG 1 Name" "ECS"
-			(at 90.17 41.91 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15519,8 +15395,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG1 PN" "ECS-245.7-20-5PX-TR"
-			(at 90.17 41.91 0)
+		(property "MFG1 PN" "ECS-245.7-20-5PX-TR "
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15529,7 +15405,7 @@
 			)
 		)
 		(property "MFG 2 Name" "TXC"
-			(at 90.17 41.91 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15538,7 +15414,7 @@
 			)
 		)
 		(property "MFG 2 PN" "9C-24.576MBBK-T"
-			(at 90.17 41.91 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15546,8 +15422,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 90.17 41.91 0)
+		(property "MPN" "ECS-245.7-20-5PX-TR "
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +15483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 79.7052 36.83 0)
 			(effects
 				(font
@@ -15676,7 +15561,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15ACG1E390JT"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 78.74 33.02 0)
 			(effects
 				(font
@@ -15917,7 +15811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 33.02 21.59 0)
 			(effects
 				(font
@@ -15977,7 +15871,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMZ1608B221CTAH0 "
+			(at 33.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 33.02 21.59 0)
 			(effects
 				(font
@@ -16157,7 +16060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 158.4452 39.37 0)
 			(effects
 				(font
@@ -16217,7 +16120,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -16333,7 +16245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 121.6152 104.14 0)
 			(effects
 				(font
@@ -16411,7 +16323,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B105KP8NNNC"
+			(at 120.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 120.65 100.33 0)
 			(effects
 				(font
@@ -16627,117 +16548,6 @@
 		)
 	)
 	(symbol
-		(lib_name "OPA2348_3")
-		(lib_id "SuperAudioBoard-rescue:OPA2348")
-		(at 218.44 140.97 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000546680a5")
-		(property "Reference" "U302B1"
-			(at 209.55 135.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "OPA2348"
-			(at 208.28 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG 1 Name" "TI"
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG1 PN" "OPA2348AIDR"
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 218.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "431328bb-aba0-4f0c-94ee-47c5fd3c1ebb")
-		)
-		(pin "4"
-			(uuid "1c1a24db-8141-4ef0-8a84-ecbe6ad48690")
-		)
-		(pin "3"
-			(uuid "61f33e7a-2c50-41a6-994a-576ed5c3404a")
-		)
-		(pin "2"
-			(uuid "4a86f2e2-72d8-4584-b8fd-0fc80d01c38e")
-		)
-		(pin "1"
-			(uuid "92bd18f1-1b31-4817-9fbf-f34b56f7fc66")
-		)
-		(pin "5"
-			(uuid "2e3dd858-1fbe-4584-8fc6-905527dbf1c6")
-		)
-		(pin "6"
-			(uuid "9d03bcb2-8f48-4462-9563-93752835562d")
-		)
-		(pin "7"
-			(uuid "0e3f8ca2-4279-42f2-8597-82bd6731f3a3")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "U302B1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+5VA_4")
 		(lib_id "SuperAudioBoard-rescue:+5VA")
 		(at 248.92 123.19 0)
@@ -16946,7 +16756,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "34"
 			(at 186.6646 140.7922 90)
 			(effects
 				(font
@@ -16954,7 +16764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 186.69 142.748 90)
 			(effects
 				(font
@@ -17032,7 +16842,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW080534R0FKEA"
+			(at 186.69 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 186.69 140.97 90)
 			(effects
 				(font
@@ -17082,7 +16901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 143.51 22.86 0)
 			(effects
 				(font
@@ -17142,7 +16961,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMZ1608B221CTAH0 "
+			(at 143.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 143.51 22.86 0)
 			(effects
 				(font
@@ -17194,7 +17022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 130.5052 39.37 0)
 			(effects
 				(font
@@ -17254,7 +17082,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -17306,7 +17143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 49.2252 40.64 0)
 			(effects
 				(font
@@ -17366,7 +17203,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 48.26 36.83 0)
 			(effects
 				(font
@@ -17418,7 +17264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 26.3652 40.64 0)
 			(effects
 				(font
@@ -17478,7 +17324,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 25.4 36.83 0)
 			(effects
 				(font
@@ -17530,7 +17385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 130.5052 104.14 0)
 			(effects
 				(font
@@ -17590,7 +17445,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -17642,7 +17506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 249.8852 137.16 0)
 			(effects
 				(font
@@ -17702,7 +17566,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 248.92 133.35 0)
 			(effects
 				(font
@@ -17745,7 +17618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 34.4424 38.989 0)
 			(effects
 				(font
@@ -17754,7 +17627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 35.2552 40.64 0)
 			(effects
 				(font
@@ -17814,7 +17687,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 34.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 34.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -17857,7 +17748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 118.2624 37.719 0)
 			(effects
 				(font
@@ -17866,7 +17757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 119.0752 39.37 0)
 			(effects
 				(font
@@ -17926,7 +17817,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -17945,118 +17854,6 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CP1_10")
-		(lib_id "SuperAudioBoard-rescue:CP1")
-		(at 166.37 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000546fe124")
-		(property "Reference" "C33"
-			(at 167.64 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 167.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "~"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG 1 Name" "Kemet"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG1 PN" "EDK476M025A9GAA"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 Name" "Nichicon"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 PN" "UUR1E470MCL1GS"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dddd6ed0-073d-4fc7-aa46-2a3ee68b899e")
-		)
-		(pin "2"
-			(uuid "001ff775-8cce-4e08-bdbe-e9ac917d932d")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -18090,7 +17887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 101.2952 36.83 0)
 			(effects
 				(font
@@ -18168,7 +17965,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KGM15ACG1E390JT"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -18199,7 +18005,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0668359f-5ec8-489f-842f-45a232cbd073")
 		(property "Reference" "TP5"
 			(at 260.35 44.4499 90)
@@ -18220,7 +18026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 257.81 45.72 0)
 			(effects
 				(font
@@ -18248,6 +18054,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 257.81 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 257.81 45.72 90)
 			(effects
 				(font
@@ -18342,7 +18157,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "19d2fe79-63fe-4b40-a6c0-b0b2cfebb752")
 		(property "Reference" "TP4"
@@ -18364,7 +18179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 55.88 154.94 0)
 			(effects
 				(font
@@ -18392,6 +18207,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 55.88 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 55.88 154.94 90)
 			(effects
 				(font
@@ -18505,7 +18329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 247.65 45.72 0)
 			(effects
 				(font
@@ -18532,7 +18356,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-0747KL"
+			(at 247.65 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 247.65 45.72 90)
 			(effects
 				(font
@@ -18582,7 +18415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 247.65 74.93 0)
 			(effects
 				(font
@@ -18609,7 +18442,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805FR-0747KL"
+			(at 247.65 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 247.65 74.93 90)
 			(effects
 				(font
@@ -18641,7 +18483,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3939d55c-3e17-47c8-b48e-0b0a63ae315c")
 		(property "Reference" "J1"
 			(at 37.465 158.75 0)
@@ -18686,7 +18528,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NCJ5FI-H"
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 38.1 149.86 0)
 			(effects
 				(font
@@ -18804,15 +18655,16 @@
 				)
 			)
 		)
-		(property "Value" "LC2255EENPTAGBLK-ND"
+		(property "Value" "~"
 			(at 81.28 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 81.28 182.88 0)
 			(effects
 				(font
@@ -18839,7 +18691,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LC2255EENPTAGBLK-ND"
+			(at 81.28 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 81.28 172.72 0)
 			(effects
 				(font
@@ -18892,7 +18753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 234.95 69.85 0)
 			(effects
 				(font
@@ -18919,7 +18780,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "25PX100MEFC5X11"
+			(at 234.95 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 234.95 69.85 90)
 			(effects
 				(font
@@ -19123,7 +18993,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NRJ4HF"
+			(at 273.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 273.05 40.64 0)
 			(effects
 				(font
@@ -19179,7 +19058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 241.3 40.64 0)
 			(effects
 				(font
@@ -19206,7 +19085,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0805100RFKEA"
+			(at 241.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 241.3 40.64 90)
 			(effects
 				(font
@@ -19238,7 +19126,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "76a4ce77-29bd-47a5-86de-cb0d55e7fcba")
 		(property "Reference" "J2"
 			(at 43.815 134.62 0)
@@ -19283,7 +19171,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NRJ4HF"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 44.45 123.19 0)
 			(effects
 				(font
@@ -19320,7 +19217,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7e007c58-3e19-4c68-a7e2-ae3747bc8605")
 		(property "Reference" "TP3"
@@ -19342,7 +19239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -19370,6 +19267,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 60.96 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 60.96 128.27 90)
 			(effects
 				(font
@@ -19528,7 +19434,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c21d046-87e5-42c9-9544-c36bb31fea62")
 		(property "Reference" "TP6"
 			(at 260.35 73.6599 90)
@@ -19549,7 +19455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 257.81 74.93 0)
 			(effects
 				(font
@@ -19577,6 +19483,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 257.81 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 257.81 74.93 90)
 			(effects
 				(font
@@ -19652,7 +19567,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NRJ4HF"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 273.05 69.85 0)
 			(effects
 				(font
@@ -19753,7 +19677,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a1d28bcd-03fb-466e-908e-6b77d4d67a7c")
 		(property "Reference" "J1"
@@ -19799,7 +19723,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NCJ5FI-H"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 27.94 172.72 0)
 			(effects
 				(font
@@ -19830,6 +19763,147 @@
 			(project ""
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1655D")
+		(at 212.09 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a311ef3b-0049-447e-9081-01607282986d")
+		(property "Reference" "U9"
+			(at 200.66 134.5498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1655D"
+			(at 200.66 137.0898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1655.pdf"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/home/sam-shersher/SuperAudioBoard/KiCADFiles/Board/Models/OPA1655.LIB"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "OPA1655"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=IN- 3=IN+ 7=VCC 6=OUT 4=VEE"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1655D"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c167a132-daf7-400a-a287-c0b79cb7e569")
+		)
+		(pin "6"
+			(uuid "46854136-15b6-488d-8f6e-d82dd846cc48")
+		)
+		(pin "1"
+			(uuid "5deb21be-1543-4d7c-b2fc-d2695b97d5d9")
+		)
+		(pin "5"
+			(uuid "96e8333f-76fc-4d35-ada4-0192c568c726")
+		)
+		(pin "4"
+			(uuid "867162cf-d442-462c-9cc5-98e7e04a6702")
+		)
+		(pin "8"
+			(uuid "9b86fcac-aba3-4a42-854d-ee4dd35c0232")
+		)
+		(pin "2"
+			(uuid "e5b3f875-82e1-4141-b7f5-5fa9d34e4481")
+		)
+		(pin "3"
+			(uuid "737b7593-3ae5-4694-965d-bb4e0c74a7c7")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -19927,7 +20001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 104.14 172.72 0)
 			(effects
 				(font
@@ -19954,7 +20028,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "25PX100MEFC5X11"
+			(at 104.14 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 104.14 172.72 90)
 			(effects
 				(font
@@ -20004,7 +20087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 29.21 110.49 0)
 			(effects
 				(font
@@ -20031,7 +20114,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB3922V"
+			(at 29.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 29.21 110.49 90)
 			(effects
 				(font
@@ -20081,7 +20173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 96.52 172.72 0)
 			(effects
 				(font
@@ -20108,7 +20200,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0805100RFKEA"
+			(at 96.52 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 96.52 172.72 90)
 			(effects
 				(font
@@ -20222,7 +20323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 234.95 40.64 0)
 			(effects
 				(font
@@ -20249,7 +20350,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "25PX100MEFC5X11"
+			(at 234.95 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 234.95 40.64 90)
 			(effects
 				(font
@@ -20268,6 +20378,91 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 166.37 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce3d0f14-935c-4bd8-a20e-15e1432920f4")
+		(property "Reference" "C18"
+			(at 172.72 35.687 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 170.18 35.687 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "25PX100MEFC5X11"
+			(at 166.37 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 166.37 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3622dd37-a08d-4d5b-8895-d4725b8199c5")
+		)
+		(pin "2"
+			(uuid "1a01f866-c8e6-4868-8fe4-0807a7b398da")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -20299,7 +20494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 241.3 69.85 0)
 			(effects
 				(font
@@ -20326,7 +20521,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0805100RFKEA"
+			(at 241.3 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 241.3 69.85 90)
 			(effects
 				(font
@@ -20376,7 +20580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 83.82 123.19 0)
 			(effects
 				(font
@@ -20403,7 +20607,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "25PX100MEFC5X11"
+			(at 83.82 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 83.82 123.19 90)
 			(effects
 				(font
@@ -20495,7 +20708,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 72.39 123.19 90)
+		(at 76.2 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20504,7 +20717,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0487e94-ce53-4f24-83bf-12f6df79a7ab")
 		(property "Reference" "R12"
-			(at 72.39 118.11 90)
+			(at 76.2 118.11 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20512,15 +20725,15 @@
 			)
 		)
 		(property "Value" "100"
-			(at 72.39 120.65 90)
+			(at 76.2 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 72.39 123.19 0)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20529,7 +20742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 123.19 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20538,7 +20751,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 72.39 123.19 0)
+			(at 76.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20546,8 +20759,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 72.39 123.19 90)
+		(property "MPN" "CRCW0805100RFKEA"
+			(at 76.2 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 76.2 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)

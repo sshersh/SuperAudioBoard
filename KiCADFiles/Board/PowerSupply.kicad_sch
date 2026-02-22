@@ -1099,154 +1099,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CP1_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CP1"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP* SM*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP1_2_0_0"
-				(text "+"
-					(at -1.27 2.54 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-			)
-			(symbol "CP1_2_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -1.27)
-					(mid 0 -0.5009)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP1_2_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.572)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "C_1"
 			(pin_numbers
 				(hide yes)
@@ -5471,6 +5323,146 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14346,6 +14338,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 69.85) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bae88ce-7687-4423-9119-a7e64749f769")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f100791-8e45-4d64-8227-c3042faf19a8")
+	)
+	(wire
+		(pts
 			(xy 64.77 139.7) (xy 64.77 138.43)
 		)
 		(stroke
@@ -14543,16 +14555,6 @@
 			(type default)
 		)
 		(uuid "7a5c94c4-7790-435a-a44b-18afc038fb06")
-	)
-	(wire
-		(pts
-			(xy 125.73 55.88) (xy 125.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5e349e-16bc-421a-a733-85de3a0ae39b")
 	)
 	(wire
 		(pts
@@ -15256,16 +15258,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 125.73 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe2b6ec8-f574-4206-8dc4-0e447e221b15")
-	)
-	(wire
-		(pts
 			(xy 214.63 133.35) (xy 219.71 133.35)
 		)
 		(stroke
@@ -15300,12 +15292,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 109.22 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15342,7 +15335,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LT1962EMS8-3.3"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -15410,12 +15412,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 109.22 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15452,7 +15455,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LT1962EMS8-5"
+			(at 113.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 113.03 142.24 0)
 			(effects
 				(font
@@ -15513,7 +15525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 142.3924 106.299 0)
 			(effects
 				(font
@@ -15522,7 +15534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 143.2052 107.95 0)
 			(effects
 				(font
@@ -15582,7 +15594,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -15634,7 +15664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 87.3252 110.49 0)
 			(effects
 				(font
@@ -15712,7 +15742,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C103K5RACTU"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -16391,7 +16430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 151.2824 106.299 0)
 			(effects
 				(font
@@ -16400,7 +16439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 152.0952 107.95 0)
 			(effects
 				(font
@@ -16460,7 +16499,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -16503,7 +16560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 142.3924 146.939 0)
 			(effects
 				(font
@@ -16512,7 +16569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 143.2052 148.59 0)
 			(effects
 				(font
@@ -16572,7 +16629,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 142.24 144.78 0)
 			(effects
 				(font
@@ -16615,7 +16690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 152.5524 146.939 0)
 			(effects
 				(font
@@ -16624,7 +16699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 153.3652 148.59 0)
 			(effects
 				(font
@@ -16684,7 +16759,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -16727,7 +16820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 62.3824 105.029 0)
 			(effects
 				(font
@@ -16736,7 +16829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 63.1952 106.68 0)
 			(effects
 				(font
@@ -16796,7 +16889,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -16839,7 +16950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 73.8124 105.029 0)
 			(effects
 				(font
@@ -16848,7 +16959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 74.6252 106.68 0)
 			(effects
 				(font
@@ -16908,7 +17019,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -16951,7 +17080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 64.9224 146.939 0)
 			(effects
 				(font
@@ -16960,7 +17089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 65.7352 148.59 0)
 			(effects
 				(font
@@ -17020,7 +17149,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 64.77 144.78 0)
 			(effects
 				(font
@@ -17063,7 +17210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 75.0824 146.939 0)
 			(effects
 				(font
@@ -17072,7 +17219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 75.8952 148.59 0)
 			(effects
 				(font
@@ -17132,7 +17279,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 74.93 144.78 0)
 			(effects
 				(font
@@ -17174,7 +17339,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 254 116.84 0)
 			(effects
 				(font
@@ -17182,7 +17347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 254 114.3 0)
 			(effects
 				(font
@@ -17260,7 +17425,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MPZ2012S331ATD25"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 254 114.3 0)
 			(effects
 				(font
@@ -17302,7 +17476,7 @@
 				)
 			)
 		)
-		(property "Value" "5.2uH"
+		(property "Value" "6.8uH"
 			(at 168.91 93.98 90)
 			(effects
 				(font
@@ -17310,7 +17484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -17352,7 +17526,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MLZ2012N6R8LT000"
+			(at 168.91 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 168.91 96.52 90)
 			(effects
 				(font
@@ -17394,7 +17577,7 @@
 				)
 			)
 		)
-		(property "Value" "5.2uH"
+		(property "Value" "6.8uH"
 			(at 168.91 135.89 90)
 			(effects
 				(font
@@ -17402,7 +17585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 168.91 138.43 0)
 			(effects
 				(font
@@ -17444,7 +17627,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MLZ2012N6R8LT000"
+			(at 168.91 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 168.91 138.43 90)
 			(effects
 				(font
@@ -17463,118 +17655,6 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-000054459109"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CP1_2")
-		(lib_id "SuperAudioBoard-rescue:CP1")
-		(at 125.73 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000054726be4")
-		(property "Reference" "C7"
-			(at 127 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "~"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG 1 Name" "Kemet"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG1 PN" "EDK476M025A9GAA"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 Name" "Nichicon"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 PN" "UUR1E470MCL1GS"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "541e8c01-5cb0-4532-82f0-937786ed37e2")
-		)
-		(pin "1"
-			(uuid "6f25e0ca-525c-41ad-b4e3-5dbb1a3dea3b")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-000054459109"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -17727,7 +17807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 209.7024 127.889 0)
 			(effects
 				(font
@@ -17736,7 +17816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 210.5152 129.54 0)
 			(effects
 				(font
@@ -17796,7 +17876,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -17839,7 +17937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 219.8624 127.889 0)
 			(effects
 				(font
@@ -17848,7 +17946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 220.6752 129.54 0)
 			(effects
 				(font
@@ -17908,7 +18006,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 219.71 125.73 0)
 			(effects
 				(font
@@ -17951,7 +18067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 133.5024 69.469 0)
 			(effects
 				(font
@@ -17960,7 +18076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 134.3152 71.12 0)
 			(effects
 				(font
@@ -18020,7 +18136,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -18062,7 +18196,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 111.76 58.42 0)
 			(effects
 				(font
@@ -18070,7 +18204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -18148,7 +18282,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MPZ2012S331ATD25"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -18200,7 +18343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 87.3252 151.13 0)
 			(effects
 				(font
@@ -18278,7 +18421,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C103K5RACTU"
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 86.36 147.32 0)
 			(effects
 				(font
@@ -18392,7 +18544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -18452,7 +18604,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "599-0110-137F "
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -18494,7 +18655,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "3.3k"
 			(at 35.7378 116.8146 90)
 			(effects
 				(font
@@ -18502,7 +18663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 33.782 116.84 90)
 			(effects
 				(font
@@ -18580,7 +18741,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB332V"
+			(at 35.56 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 35.56 116.84 90)
 			(effects
 				(font
@@ -18622,7 +18792,7 @@
 				)
 			)
 		)
-		(property "Value" "620"
+		(property "Value" "3.3k"
 			(at 35.7378 157.4546 90)
 			(effects
 				(font
@@ -18630,7 +18800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 33.782 157.48 90)
 			(effects
 				(font
@@ -18708,7 +18878,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB332V"
+			(at 35.56 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 35.56 157.48 90)
 			(effects
 				(font
@@ -18886,7 +19065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 35.56 146.05 0)
 			(effects
 				(font
@@ -18946,7 +19125,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "599-0110-137F "
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 35.56 146.05 0)
 			(effects
 				(font
@@ -19023,7 +19211,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LT1962EMS8"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -19136,7 +19333,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "445f5f39-4517-4dcb-b9c5-cfd5191d2f3d")
 		(property "Reference" "TP2"
@@ -19157,7 +19354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 229.87 120.65 0)
 			(effects
 				(font
@@ -19185,6 +19382,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 229.87 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 229.87 120.65 90)
 			(effects
 				(font
@@ -19282,7 +19488,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70b6772a-7f4c-477a-a3e4-4d51999a6de2")
 		(property "Reference" "R3"
 			(at 195.58 57.1499 0)
@@ -19302,7 +19507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 193.04 58.42 0)
 			(effects
 				(font
@@ -19329,13 +19534,21 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB3922V"
 			(at 193.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 200.914 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19418,6 +19631,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 125.73 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9688d28f-a779-4f88-b003-febb2497a36e")
+		(property "Reference" "C7"
+			(at 119.38 67.437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 121.92 67.437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "25PX100MEFC5X11"
+			(at 125.73 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 125.73 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89e2695b-153f-4729-8820-07037cde5785")
+		)
+		(pin "2"
+			(uuid "211917ae-2caf-450e-ae90-c692b19fb37d")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-000054459109"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 193.04 64.77 0)
 		(unit 1)
@@ -19425,7 +19724,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad0d69cc-33ae-4dfb-a22f-caf14218e844")
 		(property "Reference" "R4"
 			(at 195.58 63.4999 0)
@@ -19445,7 +19743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 193.04 64.77 0)
 			(effects
 				(font
@@ -19472,13 +19770,21 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB332V"
 			(at 193.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 201.168 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19503,7 +19809,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aecbe5b8-70c2-4c20-b1f9-50692f5a5e3e")
 		(property "Reference" "TP1"
@@ -19524,7 +19830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -19552,6 +19858,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 95.25 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 95.25 60.96 90)
 			(effects
 				(font
@@ -19638,6 +19953,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 74.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 74.93 58.42 0)
 			(effects
 				(font

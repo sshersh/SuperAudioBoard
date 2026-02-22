@@ -5363,12 +5363,6 @@
 		(uuid "b7509ea1-623a-45b8-a5d2-60a8d33ea262")
 	)
 	(junction
-		(at 124.46 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "079bf377-9337-4545-a2b5-c538fba3c761")
-	)
-	(junction
 		(at 170.18 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5459,6 +5453,12 @@
 		(uuid "d3eda391-d29d-4ace-a3bf-ba03de95d4cb")
 	)
 	(junction
+		(at 129.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1cc08ea-a5d4-4004-872a-ecc528985fed")
+	)
+	(junction
 		(at 144.78 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5506,6 +5506,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 55.88) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f18fd5-a95c-4c4e-a5d5-f1775bf99b14")
+	)
+	(wire
+		(pts
 			(xy 90.17 71.12) (xy 90.17 78.74)
 		)
 		(stroke
@@ -5533,6 +5543,16 @@
 			(type default)
 		)
 		(uuid "22b7b5e7-e56d-4877-861c-db265755ca62")
+	)
+	(wire
+		(pts
+			(xy 129.54 59.69) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d688ad-0087-4d13-bedd-9754aa7c5164")
 	)
 	(wire
 		(pts
@@ -5576,16 +5596,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 59.69) (xy 120.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b500280-76e4-41f7-ae9d-a9c934dcaa1a")
-	)
-	(wire
-		(pts
 			(xy 162.56 31.75) (xy 162.56 27.94)
 		)
 		(stroke
@@ -5596,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 132.08 59.69)
+			(xy 128.27 59.69) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5766,6 +5776,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 55.88) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c86c3e-88f9-466a-8405-2a23a8be1f5d")
+	)
+	(wire
+		(pts
 			(xy 106.68 27.94) (xy 124.46 27.94)
 		)
 		(stroke
@@ -5793,16 +5813,6 @@
 			(type default)
 		)
 		(uuid "9620625f-ca2b-41bc-a832-aa01016c0652")
-	)
-	(wire
-		(pts
-			(xy 120.65 63.5) (xy 124.46 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9958c397-ce48-4ee7-a09e-4c26733bf4b8")
 	)
 	(wire
 		(pts
@@ -5916,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 78.74) (xy 90.17 78.74)
+			(xy 55.88 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6127,7 +6137,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 80.01 78.74 180)
+		(at 55.88 78.74 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6311,7 +6321,7 @@
 				)
 			)
 		)
-		(property "Value" "${SIM.PARAMS}"
+		(property "Value" "220"
 			(at 133.35 30.48 0)
 			(effects
 				(font
@@ -6319,7 +6329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -6406,7 +6416,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMZ1608B221CTAH0 "
+			(at 133.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 133.35 27.94 0)
 			(effects
 				(font
@@ -6462,7 +6481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 163.5252 40.64 0)
 			(effects
 				(font
@@ -6522,7 +6541,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 162.56 36.83 0)
 			(effects
 				(font
@@ -6569,7 +6597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 152.5524 38.989 0)
 			(effects
 				(font
@@ -6578,7 +6606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 153.3652 40.64 0)
 			(effects
 				(font
@@ -6638,7 +6666,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21A106KAYNNNG"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 152.4 36.83 0)
 			(effects
 				(font
@@ -6694,7 +6740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 88.392 67.31 90)
 			(effects
 				(font
@@ -6721,7 +6767,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 90.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 90.17 67.31 0)
 			(effects
 				(font
@@ -6775,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 114.3 128.778 90)
 			(effects
 				(font
@@ -6835,7 +6890,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB102V"
+			(at 114.3 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 114.3 127 90)
 			(effects
 				(font
@@ -6858,6 +6922,98 @@
 				)
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 124.46 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "49e3f0f7-e4cb-40e6-8cec-58bad9b4e67a")
+		(property "Reference" "RV4"
+			(at 118.11 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 120.65 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RV16AF-10-15K-C5K-3LA "
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bf7f1db0-181c-416e-83ae-5e8b945ffd06")
+		)
+		(pin "2"
+			(uuid "55883d1c-941d-4898-a79c-e32c12091ca9")
+		)
+		(pin "1"
+			(uuid "4ef2cdd1-84cd-4b2b-a97b-3c63ab13c43d")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
+					(reference "RV4")
+					(unit 1)
+				)
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -6957,7 +7113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 111.76 80.518 90)
 			(effects
 				(font
@@ -7017,7 +7173,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB102V"
+			(at 111.76 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 111.76 78.74 90)
 			(effects
 				(font
@@ -7073,7 +7238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 139.7 65.0748 0)
 			(effects
 				(font
@@ -7152,7 +7317,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -7199,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5n"
+		(property "Value" "5800p"
 			(at 170.3324 136.779 0)
 			(effects
 				(font
@@ -7208,7 +7382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 171.1452 138.43 0)
 			(effects
 				(font
@@ -7269,7 +7443,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GCM1885C1H562GA16D"
+			(at 170.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -7323,7 +7506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 138.43 61.468 90)
 			(effects
 				(font
@@ -7383,7 +7566,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0805JT510R"
+			(at 138.43 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 138.43 59.69 90)
 			(effects
 				(font
@@ -7637,7 +7829,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "OPA1655D"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -7684,90 +7885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 124.46 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be4bf392-d8b5-4e9f-aa65-f43c03262c0f")
-		(property "Reference" "RV1"
-			(at 124.46 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RL_5K"
-			(at 124.46 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 124.46 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cb152f14-7c7d-4ab5-aa9d-79bdceacedf1")
-		)
-		(pin "2"
-			(uuid "c0237ce9-805b-46a9-b0fb-021c6647afe8")
-		)
-		(pin "1"
-			(uuid "ca51c7e4-b6fe-49b0-b2dc-12a0c5da5635")
-		)
-		(instances
-			(project ""
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
-					(reference "RV1")
-					(unit 1)
-				)
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_11")
 		(lib_id "SuperAudioBoard-rescue:R")
 		(at 152.4 129.54 90)
@@ -7785,7 +7902,7 @@
 				)
 			)
 		)
-		(property "Value" "40"
+		(property "Value" "34"
 			(at 152.3746 129.3622 90)
 			(effects
 				(font
@@ -7793,7 +7910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 152.4 131.318 90)
 			(effects
 				(font
@@ -7853,7 +7970,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW080534R0FKEA"
+			(at 152.4 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 152.4 129.54 90)
 			(effects
 				(font
@@ -7909,7 +8035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 142.24 112.0648 0)
 			(effects
 				(font
@@ -7988,7 +8114,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM1885C1H102JA01D"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -8170,7 +8305,7 @@
 				)
 			)
 		)
-		(property "Value" "40"
+		(property "Value" "34"
 			(at 156.1846 81.1022 90)
 			(effects
 				(font
@@ -8178,7 +8313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 156.21 83.058 90)
 			(effects
 				(font
@@ -8238,7 +8373,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW080534R0FKEA"
+			(at 156.21 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 156.21 81.28 90)
 			(effects
 				(font
@@ -8356,7 +8500,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "OPA1655D"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -8428,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 134.62 108.458 90)
 			(effects
 				(font
@@ -8488,7 +8641,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERA-6AEB102V"
+			(at 134.62 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 134.62 106.68 90)
 			(effects
 				(font
@@ -8535,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "0.1u"
 			(at 94.1324 85.979 0)
 			(effects
 				(font
@@ -8544,7 +8706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 94.9452 87.63 0)
 			(effects
 				(font
@@ -8622,7 +8784,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -8669,7 +8840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5n"
+		(property "Value" "5800p"
 			(at 171.6024 88.519 0)
 			(effects
 				(font
@@ -8678,7 +8849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
 			(at 172.4152 90.17 0)
 			(effects
 				(font
@@ -8739,7 +8910,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GCM1885C1H562GA16D"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
 			(at 171.45 86.36 0)
 			(effects
 				(font
