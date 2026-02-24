@@ -13855,12 +13855,6 @@
 		(uuid "3f474f56-8401-49d5-b379-c3538cc30816")
 	)
 	(junction
-		(at 240.03 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "435911fd-4d02-450e-aba3-869bdfa4d3d9")
-	)
-	(junction
 		(at 64.77 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13981,6 +13975,12 @@
 		(uuid "ca118fa4-f398-4c1b-90fe-f1f28ff23497")
 	)
 	(junction
+		(at 200.66 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc965774-2b7f-4738-8f31-cd7fc36a54d8")
+	)
+	(junction
 		(at 74.93 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14068,7 +14068,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 55.88) (xy 264.16 55.88)
+			(xy 193.04 55.88) (xy 264.16 55.88)
 		)
 		(stroke
 			(width 0)
@@ -14085,16 +14085,6 @@
 			(type default)
 		)
 		(uuid "11d80d1a-fd63-4ff3-8a35-363cfd19a54b")
-	)
-	(wire
-		(pts
-			(xy 193.04 55.88) (xy 240.03 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a1c9d3-03e9-402b-b9ef-4db1e2c07525")
 	)
 	(wire
 		(pts
@@ -14368,7 +14358,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 209.55 114.3)
+			(xy 190.5 114.3) (xy 200.66 114.3)
 		)
 		(stroke
 			(width 0)
@@ -14918,6 +14908,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0df5ba3-f93d-4726-9a92-68d35cf16754")
+	)
+	(wire
+		(pts
 			(xy 62.23 97.79) (xy 62.23 96.52)
 		)
 		(stroke
@@ -15265,6 +15265,26 @@
 			(type default)
 		)
 		(uuid "ff3ba2f4-20e2-4770-b7e5-d426aebec25b")
+	)
+	(label "VIN_ANALOG"
+		(at 88.9 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "979b622d-638e-4d58-89a1-e9a9df2b7e15")
+	)
+	(label "VIN_ANALOG_FILT"
+		(at 139.7 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d04a67-2295-4e79-9b9e-575c035750ff")
 	)
 	(symbol
 		(lib_name "LT1962-3.3_2")
@@ -17669,6 +17689,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000054726be5")
 		(property "Reference" "#PWR010"
 			(at 132.08 76.2 0)
@@ -18057,6 +18078,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000054726bea")
 		(property "Reference" "C8"
 			(at 133.35 64.77 0)
@@ -18205,7 +18227,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 111.76 55.88 0)
+			(at 110.49 48.768 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19416,7 +19438,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 240.03 55.88 0)
+		(at 200.66 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19425,7 +19447,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d15781a-0e74-4004-826d-18cb8405b04a")
 		(property "Reference" "#PWR012"
-			(at 240.03 59.69 0)
+			(at 200.66 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19434,7 +19456,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 240.03 50.8 0)
+			(at 200.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19442,7 +19464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 55.88 0)
+			(at 200.66 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +19473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 55.88 0)
+			(at 200.66 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19460,7 +19482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 240.03 55.88 0)
+			(at 200.66 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19472,7 +19494,7 @@
 			(uuid "7e85af02-1268-457a-8b5f-5ae014e8cfa1")
 		)
 		(instances
-			(project ""
+			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-000054459109"
 					(reference "#PWR012")
 					(unit 1)
@@ -19488,6 +19510,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "70b6772a-7f4c-477a-a3e4-4d51999a6de2")
 		(property "Reference" "R3"
 			(at 195.58 57.1499 0)
@@ -19639,6 +19662,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9688d28f-a779-4f88-b003-febb2497a36e")
 		(property "Reference" "C7"
 			(at 119.38 67.437 90)
@@ -19724,6 +19748,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ad0d69cc-33ae-4dfb-a22f-caf14218e844")
 		(property "Reference" "R4"
 			(at 195.58 63.4999 0)
@@ -19997,6 +20022,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dc56bbf7-1dfb-474e-a9cf-cff00ef42389")
 		(property "Reference" "#PWR05"
 			(at 170.18 69.85 0)
@@ -20061,6 +20087,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ed3243ed-c219-455a-9721-f8a7d6cdbad9")
 		(property "Reference" "#PWR011"
 			(at 193.04 68.58 0)

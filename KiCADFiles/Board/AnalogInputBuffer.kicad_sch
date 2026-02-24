@@ -5329,17 +5329,6 @@
 		)
 		(uuid "4223fd99-b7f5-43de-aac7-bb66649fe48d")
 	)
-	(text "Used 1% C0G caps, and minimum tolerance thin film resistors\n(0.1% for 1Ks, 0.1-0.5% for 40s) to match both sides of diff amp,\npreserving CMRR.  Heard Susumu R series resistors are good."
-		(exclude_from_sim no)
-		(at 94.742 159.512 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "45f46319-611f-424b-9668-75ca48de0b7c")
-	)
 	(text "100pF caps for common mode EMI rejection"
 		(exclude_from_sim no)
 		(at 45.974 104.14 0)
@@ -5363,13 +5352,13 @@
 		(uuid "b7509ea1-623a-45b8-a5d2-60a8d33ea262")
 	)
 	(junction
-		(at 170.18 129.54)
+		(at 170.18 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17e70b88-d608-4a31-9dc2-588831903f05")
 	)
 	(junction
-		(at 124.46 113.03)
+		(at 124.46 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a78aebd-7f6e-41a0-87ba-0fcd73e828d9")
@@ -5387,7 +5376,7 @@
 		(uuid "35b43364-4192-4255-ac40-efda2f60e59f")
 	)
 	(junction
-		(at 158.75 129.54)
+		(at 158.75 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e4aa3ec-5c80-42f0-a967-5146b3aab08b")
@@ -5405,7 +5394,7 @@
 		(uuid "71bb16ef-8a26-49b9-b5f6-6aec51a54975")
 	)
 	(junction
-		(at 124.46 127)
+		(at 124.46 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76ed577e-b5ca-430c-a488-54edb664b30e")
@@ -5459,7 +5448,7 @@
 		(uuid "e1cc08ea-a5d4-4004-872a-ecc528985fed")
 	)
 	(junction
-		(at 144.78 129.54)
+		(at 144.78 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac5a470-eee9-48a0-8ea6-2d8306234638")
@@ -5526,7 +5515,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 134.62 137.16)
+			(xy 134.62 148.59) (xy 134.62 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +5545,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 158.75 129.54)
+			(xy 158.75 115.57) (xy 158.75 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5625,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 129.54) (xy 193.04 129.54)
+			(xy 170.18 138.43) (xy 193.04 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 106.68) (xy 158.75 106.68)
+			(xy 140.97 115.57) (xy 158.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 127) (xy 124.46 127)
+			(xy 120.65 135.89) (xy 124.46 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5705,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 146.05 129.54)
+			(xy 144.78 138.43) (xy 146.05 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +5745,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 132.08) (xy 129.54 132.08)
+			(xy 125.73 140.97) (xy 129.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5796,7 +5785,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 113.03) (xy 124.46 127)
+			(xy 124.46 121.92) (xy 124.46 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5836,7 +5825,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 129.54) (xy 170.18 129.54)
+			(xy 158.75 138.43) (xy 170.18 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +5855,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 107.95 99.06)
+			(xy 107.95 135.89) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5876,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 184.15 99.06)
+			(xy 107.95 107.95) (xy 184.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5886,7 +5875,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 128.27 106.68)
+			(xy 124.46 115.57) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5916,7 +5905,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 124.46 113.03)
+			(xy 124.46 115.57) (xy 124.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5936,7 +5925,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 144.78 129.54)
+			(xy 144.78 121.92) (xy 144.78 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5996,17 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 135.89 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6c61d4-e68d-4aca-8f3f-ab83387ed99c")
-	)
-	(wire
-		(pts
-			(xy 184.15 99.06) (xy 184.15 81.28)
+			(xy 184.15 107.95) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6016,7 +5995,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 144.78 113.03)
+			(xy 143.51 121.92) (xy 144.78 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6026,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 113.03) (xy 133.35 113.03)
+			(xy 124.46 121.92) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6036,7 +6015,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 127) (xy 129.54 127)
+			(xy 124.46 135.89) (xy 129.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6045,7 +6024,7 @@
 		(uuid "feef414d-eafb-4f68-861f-4abf88e4263d")
 	)
 	(label "AMP_SIGIN-"
-		(at 124.46 116.84 0)
+		(at 124.46 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6055,7 +6034,7 @@
 		(uuid "119bbc45-7f32-4c57-b744-fe959155f082")
 	)
 	(label "5V_FILT"
-		(at 135.89 91.44 0)
+		(at 134.62 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6085,7 +6064,7 @@
 		(uuid "682601ae-f761-488a-9d21-71a67a5c6141")
 	)
 	(label "VCOM"
-		(at 125.73 132.08 180)
+		(at 125.73 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6115,7 +6094,7 @@
 		(uuid "bdbaefbf-b838-4034-a10d-e38b7664b320")
 	)
 	(label "5V_FILT"
-		(at 134.62 139.7 0)
+		(at 134.62 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6159,7 +6138,7 @@
 	)
 	(hierarchical_label "OUT_P"
 		(shape input)
-		(at 193.04 129.54 0)
+		(at 193.04 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6454,131 +6433,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_16")
-		(lib_id "SuperAudioBoard-rescue:C")
-		(at 162.56 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000546e4e8d")
-		(property "Reference" "C44"
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 162.7124 38.989 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 163.5252 40.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG 1 Name" "Murata"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG1 PN" "GRM188R71E104KA01"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 Name" "TDK"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 PN" "C1608X7R1E104K080AA"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10B104KB8NNNL"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "212f7a00-d38d-41e8-b7fe-e5c42d06ab81")
-		)
-		(pin "2"
-			(uuid "d08f9ce5-d656-40b3-a6b6-8098f808a914")
-		)
-		(instances
-			(project ""
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
-					(reference "C44")
-					(unit 1)
-				)
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_17")
 		(lib_id "SuperAudioBoard-rescue:C")
 		(at 152.4 36.83 0)
@@ -6807,7 +6661,7 @@
 	(symbol
 		(lib_name "R_9")
 		(lib_id "SuperAudioBoard-rescue:R")
-		(at 114.3 127 90)
+		(at 114.3 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6815,7 +6669,7 @@
 		(dnp no)
 		(uuid "2230b35c-efc1-4cd7-bd84-65c5e6de3c12")
 		(property "Reference" "R67"
-			(at 114.3 124.968 90)
+			(at 114.3 133.858 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6823,7 +6677,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 114.2746 126.8222 90)
+			(at 114.2746 135.7122 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6831,7 +6685,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
-			(at 114.3 128.778 90)
+			(at 114.3 137.668 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6839,7 +6693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6847,7 +6701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,7 +6709,7 @@
 			)
 		)
 		(property "MFG 1 Name" "Susumu"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6864,7 +6718,7 @@
 			)
 		)
 		(property "MFG1 PN" "RG2012P-102-B-T5"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6873,7 +6727,7 @@
 			)
 		)
 		(property "MFG 2 Name" "Vishay Dale"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6882,7 +6736,7 @@
 			)
 		)
 		(property "MFG 2 PN" "TNPW08051K00BEEA"
-			(at 114.3 127 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6891,7 +6745,7 @@
 			)
 		)
 		(property "MPN" "ERA-6AEB102V"
-			(at 114.3 127 90)
+			(at 114.3 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6754,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 114.3 127 90)
+			(at 114.3 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,6 +6776,199 @@
 				)
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_16")
+		(lib_id "SuperAudioBoard-rescue:C")
+		(at 134.62 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d4a4803-19ee-4e9f-b7e5-63d5db96d32a")
+		(property "Reference" "C36"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 134.7724 98.679 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+			(at 135.5852 100.33 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG 1 Name" "Murata"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG1 PN" "GRM188R71E104KA01"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG 2 Name" "TDK"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG 2 PN" "C1608X7R1E104K080AA"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d69ebf-b06b-455a-809f-4f0819e53a24")
+		)
+		(pin "2"
+			(uuid "9fca98a1-3f6c-4a99-9902-9e967fe36254")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_13")
+		(lib_id "SuperAudioBoard-rescue:GND")
+		(at 134.62 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "377acaf5-b297-4fb1-831c-50ca8c769da6")
+		(property "Reference" "#PWR074"
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 160.528 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd4753f3-aaad-4ee4-a464-ca2759c9f315")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7020,9 +7067,134 @@
 		)
 	)
 	(symbol
+		(lib_name "C_16")
+		(lib_id "SuperAudioBoard-rescue:C")
+		(at 134.62 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bfe20f5-ec22-4a90-99f4-dd5da11110e6")
+		(property "Reference" "C33"
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 134.7724 155.829 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+			(at 135.5852 157.48 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG 1 Name" "Murata"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG1 PN" "GRM188R71E104KA01"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG 2 Name" "TDK"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG 2 PN" "C1608X7R1E104K080AA"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a59d374-313e-473c-8c03-1f61062e2fce")
+		)
+		(pin "2"
+			(uuid "0dc0e486-64f5-4801-961a-e3dfec199244")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_14")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 134.62 121.92 180)
+		(at 134.62 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7030,7 +7202,7 @@
 		(dnp no)
 		(uuid "54946113-91c0-4a15-9faa-0639f0bc42e7")
 		(property "Reference" "#PWR097"
-			(at 134.62 121.92 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7039,7 +7211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 120.142 0)
+			(at 134.62 129.032 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7048,7 +7220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 121.92 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7056,7 +7228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 121.92 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7064,7 +7236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 121.92 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7529,7 @@
 	(symbol
 		(lib_name "C_11")
 		(lib_id "SuperAudioBoard-rescue:C")
-		(at 170.18 134.62 0)
+		(at 170.18 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7365,7 +7537,7 @@
 		(dnp no)
 		(uuid "620133a8-f903-452f-aa2f-7a5190c98b0f")
 		(property "Reference" "C85"
-			(at 170.18 132.08 0)
+			(at 170.18 140.97 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7374,7 +7546,7 @@
 			)
 		)
 		(property "Value" "5800p"
-			(at 170.3324 136.779 0)
+			(at 170.3324 145.669 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7383,7 +7555,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 171.1452 138.43 0)
+			(at 171.1452 147.32 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7391,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7400,7 +7572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7580,7 @@
 			)
 		)
 		(property "MFG 1 Name" "Murata"
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7417,7 +7589,7 @@
 			)
 		)
 		(property "MFG1 PN" "GRM2165C1H272JA01D"
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7426,7 +7598,7 @@
 			)
 		)
 		(property "MFG 2 Name" "TDK"
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7435,7 +7607,7 @@
 			)
 		)
 		(property "MFG 2 PN" "C2012NP01H272J060AA"
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7444,7 +7616,7 @@
 			)
 		)
 		(property "MPN" "GCM1885C1H562GA16D"
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +7625,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 170.18 134.62 0)
+			(at 170.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7778,7 @@
 	(symbol
 		(lib_name "GND_10")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 170.18 139.7 0)
+		(at 170.18 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7614,7 +7786,7 @@
 		(dnp no)
 		(uuid "7659b1d8-35c1-4e05-8e70-a6a53c52100a")
 		(property "Reference" "#PWR099"
-			(at 170.18 139.7 0)
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7623,7 +7795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 141.478 0)
+			(at 170.18 150.368 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7632,7 +7804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 139.7 0)
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7640,7 +7812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 139.7 0)
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7648,7 +7820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 139.7 0)
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,9 +8057,77 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_13")
+		(lib_id "SuperAudioBoard-rescue:GND")
+		(at 134.62 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b79252a3-f1ad-4a88-b71d-cedf2eef43a9")
+		(property "Reference" "#PWR072"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 103.378 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a4adb9c-61fc-4877-a569-c7c2595ae0c8")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-0000544f05bf"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/00000000-0000-0000-0000-00005456b8dd"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_11")
 		(lib_id "SuperAudioBoard-rescue:R")
-		(at 152.4 129.54 90)
+		(at 152.4 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7895,7 +8135,7 @@
 		(dnp no)
 		(uuid "be957412-1d96-48c8-8f4a-917c80ccaa48")
 		(property "Reference" "R70"
-			(at 152.4 127.508 90)
+			(at 152.4 136.398 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7903,7 +8143,7 @@
 			)
 		)
 		(property "Value" "34"
-			(at 152.3746 129.3622 90)
+			(at 152.3746 138.2522 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7911,7 +8151,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
-			(at 152.4 131.318 90)
+			(at 152.4 140.208 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7919,7 +8159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 129.54 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7927,7 +8167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 129.54 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8175,7 @@
 			)
 		)
 		(property "MFG 1 Name" "Susumu"
-			(at 152.4 129.54 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7944,7 +8184,7 @@
 			)
 		)
 		(property "MFG1 PN" "RR1220Q-40R2-D-M"
-			(at 152.4 129.54 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7953,7 +8193,7 @@
 			)
 		)
 		(property "MFG 2 Name" "TE Connectivity"
-			(at 152.4 129.54 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7962,7 +8202,7 @@
 			)
 		)
 		(property "MFG 2 PN" "8-1625868-5"
-			(at 152.4 129.54 0)
+			(at 152.4 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7971,7 +8211,7 @@
 			)
 		)
 		(property "MPN" "CRCW080534R0FKEA"
-			(at 152.4 129.54 90)
+			(at 152.4 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,7 +8220,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 152.4 129.54 90)
+			(at 152.4 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8250,7 @@
 	(symbol
 		(lib_name "C_18")
 		(lib_id "SuperAudioBoard-rescue:C")
-		(at 138.43 113.03 90)
+		(at 138.43 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8018,7 +8258,7 @@
 		(dnp no)
 		(uuid "c62d9b3d-df47-40a4-9b7e-2ad0b48f4c0b")
 		(property "Reference" "C82"
-			(at 135.89 113.03 0)
+			(at 135.89 121.92 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8027,7 +8267,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 140.589 112.8776 0)
+			(at 140.589 121.7676 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8036,7 +8276,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 142.24 112.0648 0)
+			(at 142.24 120.9548 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8044,7 +8284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8053,7 +8293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8301,7 @@
 			)
 		)
 		(property "MFG 1 Name" "Murata"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8070,7 +8310,7 @@
 			)
 		)
 		(property "MFG1 PN" "GRM2165C1H102FA01D"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8079,7 +8319,7 @@
 			)
 		)
 		(property "MFG 2 Name" "Kemet"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8088,7 +8328,7 @@
 			)
 		)
 		(property "MFG 2 PN" "C0805C102F5GACTU"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8097,7 +8337,7 @@
 			)
 		)
 		(property "MFG 3 Name" "AVX"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8106,7 +8346,7 @@
 			)
 		)
 		(property "MFG 3 PN" "08055A102FAT2A"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8115,7 +8355,7 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H102JA01D"
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8364,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 138.43 113.03 0)
+			(at 138.43 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,7 +8652,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1655D")
-		(at 137.16 129.54 0)
+		(at 137.16 138.43 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8421,7 +8661,7 @@
 		(dnp no)
 		(uuid "db488ff6-0ee4-4392-af06-8358f8e99225")
 		(property "Reference" "U16"
-			(at 148.59 135.9602 0)
+			(at 148.59 144.8502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8669,7 @@
 			)
 		)
 		(property "Value" "OPA1655D"
-			(at 148.59 133.4202 0)
+			(at 148.59 142.3102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8677,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 134.62 124.46 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8687,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1655.pdf"
-			(at 140.97 133.35 0)
+			(at 140.97 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8696,7 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8705,7 @@
 			)
 		)
 		(property "Sim.Library" "/home/sam-shersher/SuperAudioBoard/KiCADFiles/Board/Models/OPA1655.LIB"
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8714,7 @@
 			)
 		)
 		(property "Sim.Name" "OPA1655"
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8723,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8732,7 @@
 			)
 		)
 		(property "Sim.Pins" "2=IN- 3=IN+ 7=VCC 6=OUT 4=VEE"
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8741,7 @@
 			)
 		)
 		(property "MPN" "OPA1655D"
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8750,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 137.16 129.54 0)
+			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +8798,7 @@
 	(symbol
 		(lib_name "R_9")
 		(lib_id "SuperAudioBoard-rescue:R")
-		(at 134.62 106.68 90)
+		(at 134.62 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8566,7 +8806,7 @@
 		(dnp no)
 		(uuid "eeb5180f-9e57-4f05-aaac-29b2c2b5ffe5")
 		(property "Reference" "R69"
-			(at 134.62 104.648 90)
+			(at 134.62 113.538 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8574,7 +8814,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 134.5946 106.5022 90)
+			(at 134.5946 115.3922 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8582,7 +8822,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
-			(at 134.62 108.458 90)
+			(at 134.62 117.348 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8590,7 +8830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 106.68 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8598,7 +8838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 106.68 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8606,7 +8846,7 @@
 			)
 		)
 		(property "MFG 1 Name" "Susumu"
-			(at 134.62 106.68 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8615,7 +8855,7 @@
 			)
 		)
 		(property "MFG1 PN" "RG2012P-102-B-T5"
-			(at 134.62 106.68 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8624,7 +8864,7 @@
 			)
 		)
 		(property "MFG 2 Name" "Vishay Dale"
-			(at 134.62 106.68 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8633,7 +8873,7 @@
 			)
 		)
 		(property "MFG 2 PN" "TNPW08051K00BEEA"
-			(at 134.62 106.68 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8642,7 +8882,7 @@
 			)
 		)
 		(property "MPN" "ERA-6AEB102V"
-			(at 134.62 106.68 90)
+			(at 134.62 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8891,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 134.62 106.68 90)
+			(at 134.62 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)

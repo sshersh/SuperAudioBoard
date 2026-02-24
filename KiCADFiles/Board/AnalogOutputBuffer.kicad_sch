@@ -6425,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 115.57 92.71 0)
 			(effects
 				(font
@@ -6452,7 +6452,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C471J5GACTU"
+		(property "MPN" "08053C471KAT2A "
 			(at 115.57 92.71 90)
 			(effects
 				(font

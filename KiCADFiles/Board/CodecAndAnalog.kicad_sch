@@ -12582,49 +12582,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT_321"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
+		(symbol "Relay:Fujitsu_FTR-LYCA005x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SW_SPDT_321"
-				(at 0 -5.08 0)
+			(property "Value" "Fujitsu_FTR-LYCA005x"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -10.16 0)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+				(at 11.43 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
+			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+				(at 16.51 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
+			(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12633,7 +12633,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "6A SPDT Relay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12642,10 +12642,68 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_321_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
+			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYCA005x_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYCA005x_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -12656,7 +12714,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -12666,20 +12724,94 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -12689,29 +12821,18 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_321_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "Fujitsu_FTR-LYCA005x_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 7.62 270)
 					(length 2.54)
-					(name "B"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12720,16 +12841,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 -7.62 90)
 					(length 2.54)
-					(name "A"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12738,16 +12859,52 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 2.54 7.62 270)
 					(length 2.54)
-					(name "C"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12932,6 +13089,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Gang 2 resistors for power rating 100 mA\n"
+		(exclude_from_sim no)
+		(at 65.786 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4eeb66fd-92d3-40b5-a312-febe48c3cdd3")
+	)
 	(text "Output B"
 		(exclude_from_sim no)
 		(at 265.176 31.496 0)
@@ -12958,7 +13125,7 @@
 	)
 	(text "Input B"
 		(exclude_from_sim no)
-		(at 81.534 153.416 0)
+		(at 97.282 151.892 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12993,7 +13160,7 @@
 	)
 	(text "Line / Mic"
 		(exclude_from_sim no)
-		(at 75.184 158.75 0)
+		(at 72.898 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13066,7 +13233,7 @@
 		(uuid "0eb4835c-2629-4a3f-ae10-330b139706a5")
 	)
 	(junction
-		(at 25.4 181.61)
+		(at 25.4 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14a52e17-5f53-412d-b6b4-d8fadf985279")
@@ -13078,7 +13245,7 @@
 		(uuid "24687632-5fa4-4ea3-b84a-c9e6b9aaa524")
 	)
 	(junction
-		(at 45.72 152.4)
+		(at 45.72 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b340a3e-9c18-4eaa-abe0-ab68707f198c")
@@ -13118,6 +13285,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a26cc59-25c7-45a3-9f66-4ca4ea68211d")
+	)
+	(junction
+		(at 92.71 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5d2841-ba45-497e-9b81-f863993317f4")
 	)
 	(junction
 		(at 125.73 29.21)
@@ -13174,7 +13347,7 @@
 		(uuid "806aa677-1172-4d83-84e2-ee333c11231f")
 	)
 	(junction
-		(at 55.88 149.86)
+		(at 55.88 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95cd0e9b-c316-49a2-adf6-2fb52994057f")
@@ -13220,6 +13393,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ce4615-58a9-4473-9b4f-1e9870924f21")
+	)
+	(junction
+		(at 92.71 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc38e92b-bc08-4404-81c7-0f8437f6e6bd")
 	)
 	(no_connect
 		(at 146.05 63.5)
@@ -13451,7 +13630,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 140.97) (xy 139.7 167.64)
+			(xy 139.7 140.97) (xy 139.7 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13478,6 +13657,16 @@
 			(type default)
 		)
 		(uuid "322ff9d5-b432-479a-b11c-3eb75fc1a57d")
+	)
+	(wire
+		(pts
+			(xy 92.71 184.15) (xy 100.33 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d84fff-727f-457c-ac5b-5a8ac788cece")
 	)
 	(wire
 		(pts
@@ -13621,7 +13810,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 172.72) (xy 158.75 172.72)
+			(xy 133.35 168.91) (xy 158.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13631,7 +13820,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 172.72) (xy 93.98 172.72)
+			(xy 86.36 168.91) (xy 93.98 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13641,7 +13830,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 158.75 172.72)
+			(xy 158.75 76.2) (xy 158.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13771,7 +13960,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 177.8) (xy 43.18 177.8)
+			(xy 39.37 173.99) (xy 43.18 173.99)
 		)
 		(stroke
 			(width 0)
@@ -13781,7 +13970,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 149.86) (xy 68.58 149.86)
+			(xy 55.88 146.05) (xy 68.58 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13811,16 +14000,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 68.58 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57121f7c-5b3a-4d3e-a738-b5f2438b4445")
-	)
-	(wire
-		(pts
 			(xy 53.34 128.27) (xy 53.34 132.08)
 		)
 		(stroke
@@ -13841,7 +14020,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 181.61) (xy 20.32 172.72)
+			(xy 20.32 177.8) (xy 20.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13861,7 +14040,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 172.72) (xy 110.49 172.72)
+			(xy 106.68 168.91) (xy 110.49 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13981,7 +14160,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 172.72) (xy 43.18 172.72)
+			(xy 35.56 168.91) (xy 43.18 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14021,7 +14200,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 160.02) (xy 50.8 152.4)
+			(xy 68.58 166.37) (xy 71.12 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b25d55d-a0f5-4785-8fe2-312a4853b63b")
+	)
+	(wire
+		(pts
+			(xy 50.8 156.21) (xy 50.8 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14061,6 +14250,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 171.45) (xy 71.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77acd00b-8854-47ef-a7ac-f045c5ea47b1")
+	)
+	(wire
+		(pts
 			(xy 149.86 27.94) (xy 157.48 27.94)
 		)
 		(stroke
@@ -14081,7 +14280,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 180.34) (xy 39.37 180.34)
+			(xy 27.94 176.53) (xy 39.37 176.53)
 		)
 		(stroke
 			(width 0)
@@ -14131,7 +14330,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 152.4) (xy 43.18 152.4)
+			(xy 45.72 148.59) (xy 43.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14161,7 +14360,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 180.34) (xy 25.4 181.61)
+			(xy 25.4 176.53) (xy 25.4 177.8)
 		)
 		(stroke
 			(width 0)
@@ -14211,7 +14410,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 167.64) (xy 133.35 167.64)
+			(xy 139.7 163.83) (xy 133.35 163.83)
 		)
 		(stroke
 			(width 0)
@@ -14261,16 +14460,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 170.18) (xy 76.2 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dff7e68-2c8c-4be9-b17d-e11fef5e7255")
-	)
-	(wire
-		(pts
 			(xy 118.11 40.64) (xy 118.11 41.91)
 		)
 		(stroke
@@ -14278,6 +14467,16 @@
 			(type default)
 		)
 		(uuid "8f0226bd-637f-4011-9125-1b9fe0e041ce")
+	)
+	(wire
+		(pts
+			(xy 68.58 146.05) (xy 68.58 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fff6c98-c4c4-401c-a9cb-f42425a2dba4")
 	)
 	(wire
 		(pts
@@ -14331,13 +14530,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 161.29 176.53)
+			(xy 161.29 73.66) (xy 161.29 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99c11643-0dd3-47d7-887e-4526496d2bc0")
+	)
+	(wire
+		(pts
+			(xy 100.33 179.07) (xy 92.71 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bccad82-326d-4de3-8ed3-2d42301c3117")
 	)
 	(wire
 		(pts
@@ -14348,16 +14557,6 @@
 			(type default)
 		)
 		(uuid "9d5ea4c5-1238-4c26-a399-c8605a673010")
-	)
-	(wire
-		(pts
-			(xy 60.96 175.26) (xy 76.2 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e31231b-ce1d-4b88-a1bc-46359315cddb")
 	)
 	(wire
 		(pts
@@ -14411,6 +14610,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 179.07) (xy 71.12 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa3ebee-3fd3-4507-bc9f-3cc8e786ae8e")
+	)
+	(wire
+		(pts
 			(xy 190.5 55.88) (xy 190.5 40.64)
 		)
 		(stroke
@@ -14421,7 +14630,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 149.86) (xy 55.88 149.86)
+			(xy 43.18 146.05) (xy 55.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -14441,7 +14650,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 180.34) (xy 39.37 177.8)
+			(xy 39.37 176.53) (xy 39.37 173.99)
 		)
 		(stroke
 			(width 0)
@@ -14551,7 +14760,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 160.02) (xy 50.8 160.02)
+			(xy 55.88 156.21) (xy 50.8 156.21)
 		)
 		(stroke
 			(width 0)
@@ -14781,7 +14990,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 45.72 152.4)
+			(xy 45.72 152.4) (xy 45.72 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14811,7 +15020,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 152.4) (xy 45.72 152.4)
+			(xy 50.8 148.59) (xy 45.72 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14861,7 +15070,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 176.53) (xy 161.29 176.53)
+			(xy 133.35 172.72) (xy 161.29 172.72)
 		)
 		(stroke
 			(width 0)
@@ -14901,7 +15110,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 181.61) (xy 25.4 184.15)
+			(xy 25.4 177.8) (xy 25.4 180.34)
 		)
 		(stroke
 			(width 0)
@@ -15011,7 +15220,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 172.72) (xy 101.6 172.72)
+			(xy 99.06 168.91) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15021,7 +15230,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 181.61) (xy 20.32 181.61)
+			(xy 25.4 177.8) (xy 20.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -15038,6 +15247,16 @@
 			(type default)
 		)
 		(uuid "fca43eda-9363-4aeb-b6d2-8b0b424c1116")
+	)
+	(wire
+		(pts
+			(xy 86.36 179.07) (xy 92.71 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb80550-e960-4d82-b877-176c6d58e661")
 	)
 	(wire
 		(pts
@@ -15058,6 +15277,16 @@
 			(type default)
 		)
 		(uuid "ff0b5dc6-5aaa-45ed-b500-cc291c377b91")
+	)
+	(label "REL_CTRL"
+		(at 88.9 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "050d27f0-0786-4649-ab9d-9e346e72dfcb")
 	)
 	(label "VCOM"
 		(at 138.43 93.98 180)
@@ -18087,6 +18316,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 78.74 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "094acc2f-b30d-49dc-add9-a7d3beb265cf")
+		(property "Reference" "K2"
+			(at 78.74 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYCA005x"
+			(at 78.74 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 80.01 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "a6630dd8-e6af-4179-aa5a-f1bac3fba792")
+		)
+		(pin "12"
+			(uuid "fffb6b6c-b576-4dd6-90b6-496572f18e76")
+		)
+		(pin "11"
+			(uuid "fe6b273d-fad5-4bb5-9dab-6b231411f03d")
+		)
+		(pin "A2"
+			(uuid "0db025d4-d1db-4ea8-857a-39d7ae170fdb")
+		)
+		(pin "14"
+			(uuid "47ea135b-c6bd-489a-be48-6b494120ce69")
+		)
+		(instances
+			(project ""
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_10")
 		(lib_id "SuperAudioBoard-rescue:GND")
 		(at 257.81 50.8 0)
@@ -18152,7 +18460,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 55.88 154.94 90)
+		(at 55.88 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18161,7 +18469,7 @@
 		(fields_autoplaced yes)
 		(uuid "19d2fe79-63fe-4b40-a6c0-b0b2cfebb752")
 		(property "Reference" "TP4"
-			(at 58.42 154.9399 90)
+			(at 58.42 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18170,7 +18478,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 58.42 156.2099 90)
+			(at 58.42 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,7 +18488,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 55.88 154.94 0)
+			(at 55.88 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +18497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 154.94 0)
+			(at 55.88 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,7 +18506,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 55.88 154.94 0)
+			(at 55.88 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18207,7 +18515,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 55.88 154.94 90)
+			(at 55.88 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18216,7 +18524,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 55.88 154.94 90)
+			(at 55.88 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18477,7 +18785,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NCJ5FI-H")
-		(at 38.1 149.86 0)
+		(at 38.1 146.05 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -18486,7 +18794,7 @@
 		(dnp yes)
 		(uuid "3939d55c-3e17-47c8-b48e-0b0a63ae315c")
 		(property "Reference" "J1"
-			(at 37.465 158.75 0)
+			(at 37.465 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18494,7 +18802,7 @@
 			)
 		)
 		(property "Value" "NCJ5FI-H"
-			(at 37.465 156.21 0)
+			(at 37.465 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18502,7 +18810,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H_Horizontal"
-			(at 38.1 152.4 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18511,7 +18819,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/ncj5fi-h"
-			(at 38.1 152.4 0)
+			(at 38.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18520,7 +18828,7 @@
 			)
 		)
 		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) mono jack without switching contact, horizontal PCB mount, retention spring"
-			(at 38.1 149.86 0)
+			(at 38.1 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18529,7 +18837,7 @@
 			)
 		)
 		(property "MPN" "NCJ5FI-H"
-			(at 38.1 149.86 0)
+			(at 38.1 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18538,7 +18846,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 38.1 149.86 0)
+			(at 38.1 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18632,96 +18940,6 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT_321")
-		(at 81.28 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47fd800b-0279-4415-b4a1-73981b9fbd7e")
-		(property "Reference" "SW4"
-			(at 81.28 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 81.28 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 81.28 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LC2255EENPTAGBLK-ND"
-			(at 81.28 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 81.28 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08cd73c0-bb61-4b8b-a69e-860fdb319c4c")
-		)
-		(pin "3"
-			(uuid "774ef10e-3145-4f65-98dd-720352a029d2")
-		)
-		(pin "1"
-			(uuid "6a4f9110-8647-4790-b4a5-c8664a7ff7e1")
-		)
-		(instances
-			(project ""
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -18880,7 +19098,7 @@
 	(symbol
 		(lib_name "GND_28")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 45.72 156.21 0)
+		(at 45.72 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18888,7 +19106,7 @@
 		(dnp no)
 		(uuid "62592e9d-8709-43df-ae35-2cd368a0ecb8")
 		(property "Reference" "#PWR021"
-			(at 45.72 156.21 0)
+			(at 45.72 152.4 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -18897,7 +19115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 157.988 0)
+			(at 45.72 154.178 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -18906,7 +19124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 156.21 0)
+			(at 45.72 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18914,7 +19132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 156.21 0)
+			(at 45.72 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18922,7 +19140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 156.21 0)
+			(at 45.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18936,6 +19154,92 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 100.33 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f003694-d7ab-402d-80c5-b6d98a01ab1b")
+		(property "Reference" "R37"
+			(at 95.25 181.61 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 97.79 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0805100RFKEA"
+			(at 100.33 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 100.33 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e5ab906-af66-4295-8e37-8bee71494847")
+		)
+		(pin "2"
+			(uuid "69ff6bad-42e8-40bc-ba42-240af140daa0")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -19672,7 +19976,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NCJ5FI-H")
-		(at 27.94 172.72 0)
+		(at 27.94 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19681,7 +19985,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1d28bcd-03fb-466e-908e-6b77d4d67a7c")
 		(property "Reference" "J1"
-			(at 27.94 162.56 0)
+			(at 27.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +19993,7 @@
 			)
 		)
 		(property "Value" "NCJ5FI-H"
-			(at 27.94 165.1 0)
+			(at 27.94 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19697,7 +20001,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H_Horizontal"
-			(at 27.94 170.18 0)
+			(at 27.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19706,7 +20010,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/ncj5fi-h"
-			(at 27.94 170.18 0)
+			(at 27.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19715,7 +20019,7 @@
 			)
 		)
 		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) mono jack without switching contact, horizontal PCB mount, retention spring"
-			(at 27.94 172.72 0)
+			(at 27.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19724,7 +20028,7 @@
 			)
 		)
 		(property "MPN" "NCJ5FI-H"
-			(at 27.94 172.72 0)
+			(at 27.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19733,7 +20037,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 27.94 172.72 0)
+			(at 27.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19976,33 +20280,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 104.14 172.72 270)
-		(mirror x)
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 92.71 189.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "bc46d72b-97ea-4d8f-b874-7a07e7408af9")
-		(property "Reference" "C23"
-			(at 104.013 166.37 90)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a9eed085-caeb-4e16-9ada-b6ad0ffc97af")
+		(property "Reference" "TP7"
+			(at 95.25 189.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 104.013 168.91 90)
+		(property "Value" "TestPoint_2Pole"
+			(at 90.17 187.9601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 104.14 172.72 0)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 92.71 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20010,8 +20317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 104.14 172.72 0)
+		(property "Datasheet" "~"
+			(at 92.71 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20019,8 +20326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
-			(at 104.14 172.72 0)
+		(property "Description" "2-polar test point"
+			(at 92.71 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20028,8 +20335,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "25PX100MEFC5X11"
-			(at 104.14 172.72 90)
+		(property "MPN" ""
+			(at 92.71 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20038,7 +20345,93 @@
 			)
 		)
 		(property "Tol" ""
-			(at 104.14 172.72 90)
+			(at 92.71 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68b61e8d-3711-4105-a277-d8b25a9ead1c")
+		)
+		(pin "1"
+			(uuid "d33aa36f-1840-4f2d-99f4-c6b987c185f1")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 104.14 168.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc46d72b-97ea-4d8f-b874-7a07e7408af9")
+		(property "Reference" "C23"
+			(at 104.013 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 104.013 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "25PX100MEFC5X11"
+			(at 104.14 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 104.14 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20079,7 +20472,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1M"
 			(at 29.21 107.95 90)
 			(effects
 				(font
@@ -20114,7 +20507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA-6AEB3922V"
+		(property "MPN" ""
 			(at 29.21 110.49 90)
 			(effects
 				(font
@@ -20148,8 +20541,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_28")
+		(lib_id "SuperAudioBoard-rescue:GND")
+		(at 92.71 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfe7e816-35b1-47f1-b2d1-721e39005924")
+		(property "Reference" "#PWR070"
+			(at 92.71 194.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 196.088 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 194.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 194.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "050a4766-0ad4-4ad1-8551-d8046436dc1a")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 96.52 172.72 90)
+		(at 96.52 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20158,7 +20615,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2e165e1-34ce-4b34-a69c-6cc7c4461bef")
 		(property "Reference" "R34"
-			(at 96.52 167.64 90)
+			(at 96.52 163.83 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20166,7 +20623,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 96.52 170.18 90)
+			(at 96.52 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20174,7 +20631,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
-			(at 96.52 172.72 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20183,7 +20640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 172.72 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20192,7 +20649,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 96.52 172.72 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20201,7 +20658,7 @@
 			)
 		)
 		(property "MPN" "CRCW0805100RFKEA"
-			(at 96.52 172.72 90)
+			(at 96.52 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20210,7 +20667,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 96.52 172.72 90)
+			(at 96.52 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20378,6 +20835,69 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5VA_3")
+		(lib_id "SuperAudioBoard-rescue:+5VA")
+		(at 67.31 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c53b2a68-2bc7-473f-8f4d-a51bc29dfbe6")
+		(property "Reference" "#PWR071"
+			(at 67.31 175.768 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 67.31 176.53 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f48df63f-38c4-4c48-9227-e6d95ec2f34d")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -20642,7 +21162,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 25.4 184.15 0)
+		(at 25.4 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20651,7 +21171,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaba85f5-57fc-4b3a-9553-6331d03a1a0d")
 		(property "Reference" "#PWR047"
-			(at 25.4 189.23 0)
+			(at 25.4 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20660,7 +21180,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 25.273 187.96 0)
+			(at 25.273 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20668,7 +21188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 185.42 0)
+			(at 25.4 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20677,7 +21197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 185.42 0)
+			(at 25.4 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20686,7 +21206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 25.4 184.15 0)
+			(at 25.4 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20792,6 +21312,92 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 92.71 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fea23657-cd36-47ee-84e8-7849ccec5533")
+		(property "Reference" "R36"
+			(at 87.63 181.61 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 90.17 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0805100RFKEA"
+			(at 92.71 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 92.71 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b6d86b7-9349-4aed-b902-192435fc9847")
+		)
+		(pin "2"
+			(uuid "d373d6f5-e81a-4f52-8f71-a35cbe20cd2c")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 91.44 115.57)
 		(size 24.13 15.24)
@@ -20875,7 +21481,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 163.83)
+		(at 110.49 160.02)
 		(size 22.86 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20891,7 +21497,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005456b8dd")
 		(property "Sheetname" "InputBufferB"
-			(at 110.49 163.1184 0)
+			(at 110.49 159.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20900,7 +21506,7 @@
 			)
 		)
 		(property "Sheetfile" "AnalogInputBuffer.kicad_sch"
-			(at 110.49 180.9246 0)
+			(at 110.49 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20909,7 +21515,7 @@
 			)
 		)
 		(pin "VCOM" input
-			(at 133.35 167.64 0)
+			(at 133.35 163.83 0)
 			(uuid "f1b45aae-10ab-415b-84ba-16da5ac444bc")
 			(effects
 				(font
@@ -20919,7 +21525,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 110.49 172.72 180)
+			(at 110.49 168.91 180)
 			(uuid "03a0bf4c-df1d-4bb9-8873-cc08bbea55d4")
 			(effects
 				(font
@@ -20929,7 +21535,7 @@
 			)
 		)
 		(pin "OUT_P" output
-			(at 133.35 172.72 0)
+			(at 133.35 168.91 0)
 			(uuid "595fa1f6-65bf-498b-9540-cba4bd964128")
 			(effects
 				(font
@@ -20939,7 +21545,7 @@
 			)
 		)
 		(pin "OUT_N" output
-			(at 133.35 176.53 0)
+			(at 133.35 172.72 0)
 			(uuid "f1990321-1c12-4d47-a78d-69deb336afc4")
 			(effects
 				(font
@@ -21101,7 +21707,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 167.64)
+		(at 43.18 163.83)
 		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21117,7 +21723,7 @@
 		)
 		(uuid "cc56b259-b7b6-4889-861e-4cceeb5868cc")
 		(property "Sheetname" "MicPreamp"
-			(at 43.18 166.9284 0)
+			(at 43.18 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21126,7 +21732,7 @@
 			)
 		)
 		(property "Sheetfile" "MicPreamp.kicad_sch"
-			(at 43.18 183.4646 0)
+			(at 43.18 179.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21136,7 +21742,7 @@
 			)
 		)
 		(pin "IN_N" input
-			(at 43.18 177.8 180)
+			(at 43.18 173.99 180)
 			(uuid "42e57f7f-61e2-4d11-b206-75a5541c70da")
 			(effects
 				(font
@@ -21146,7 +21752,7 @@
 			)
 		)
 		(pin "IN_P" input
-			(at 43.18 172.72 180)
+			(at 43.18 168.91 180)
 			(uuid "1f7ffa8b-e6ed-43cd-a8c6-836018ca0761")
 			(effects
 				(font
@@ -21156,7 +21762,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 60.96 175.26 0)
+			(at 60.96 171.45 0)
 			(uuid "200f50d1-d853-4f3a-984a-5ff0f76e5ab9")
 			(effects
 				(font

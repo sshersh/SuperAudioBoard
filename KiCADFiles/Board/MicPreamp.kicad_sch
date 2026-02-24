@@ -1676,12 +1676,6 @@
 		(uuid "1fb35d2c-3229-48f5-bf04-fac0f566de0e")
 	)
 	(junction
-		(at 160.02 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c5f83f7-9eac-461d-912c-1a10ea101785")
-	)
-	(junction
 		(at 156.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,10 +1706,22 @@
 		(uuid "c3edb95b-1056-4d00-93a3-741d030ef287")
 	)
 	(junction
+		(at 160.02 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4dc1dc1-6a40-40c4-a2e2-470b1a2f246f")
+	)
+	(junction
 		(at 156.21 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c630fde4-2534-4a16-8de1-475ecc5012b2")
+	)
+	(junction
+		(at 59.69 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e442d745-6005-4113-8e75-69bfa14d2740")
 	)
 	(junction
 		(at 156.21 64.77)
@@ -1732,6 +1738,16 @@
 			(type default)
 		)
 		(uuid "03863701-a0fd-4ee3-8d0e-e8867595e54b")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073de6a5-fdba-4319-965d-24b5d82d1e13")
 	)
 	(wire
 		(pts
@@ -1762,6 +1778,26 @@
 			(type default)
 		)
 		(uuid "17c6ef95-cffe-48d8-8434-e61f3d92ef6c")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373cb210-fb01-4bc7-a402-9598f598f2cf")
+	)
+	(wire
+		(pts
+			(xy 59.69 57.15) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c496f0c-4a2e-4537-b19b-6a06f330a098")
 	)
 	(wire
 		(pts
@@ -1845,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 59.69 62.23)
+			(xy 59.69 55.88) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1862,6 +1898,16 @@
 			(type default)
 		)
 		(uuid "6e00e98e-2e6d-47df-9787-bba0947539b4")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 163.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8ca93b-6a59-4538-abe7-241a5053eeec")
 	)
 	(wire
 		(pts
@@ -2005,16 +2051,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 114.3) (xy 160.02 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db32f704-6276-491a-9187-8a6e90a02db9")
-	)
-	(wire
-		(pts
 			(xy 160.02 113.03) (xy 160.02 114.3)
 		)
 		(stroke
@@ -2022,16 +2058,6 @@
 			(type default)
 		)
 		(uuid "ea0a900d-037e-4197-a6a4-1103238f77c3")
-	)
-	(wire
-		(pts
-			(xy 163.83 118.11) (xy 163.83 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef00d2ec-ab66-4bc8-9133-0fc939a40304")
 	)
 	(wire
 		(pts
@@ -2547,6 +2573,70 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_13")
+		(lib_id "SuperAudioBoard-rescue:GND")
+		(at 53.34 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36290e4a-0a61-4e77-bfbd-3ff76a6775f8")
+		(property "Reference" "#PWR067"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 64.008 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01c84088-3635-412f-9ac1-bed4aba7ae24")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/cc56b259-b7b6-4889-861e-4cceeb5868cc"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 187.96 50.8 0)
 		(unit 1)
@@ -2937,6 +3027,118 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/cc56b259-b7b6-4889-861e-4cceeb5868cc"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0603_25V_20%")
+		(at 53.34 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71b378ca-fdc8-4b75-bb31-fc1220f8cd16")
+		(property "Reference" "C22"
+			(at 47.498 59.9503 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 49.784 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00810"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 46.99 59.6837 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 49.53 59.6837 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNL"
+			(at 53.34 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" ""
+			(at 53.34 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6786f6fe-1c68-4d17-9fc7-1cdf22c8f4f6")
+		)
+		(pin "1"
+			(uuid "c4379701-2b2d-4a0e-aa45-b559abe2686c")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479/cc56b259-b7b6-4889-861e-4cceeb5868cc"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 134.62 78.74 0)
 			(effects
 				(font
@@ -3409,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C471J5GACTU"
+		(property "MPN" "08053C471KAT2A "
 			(at 134.62 67.31 0)
 			(effects
 				(font
@@ -3702,7 +3904,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 59.69 57.15 0)
+		(at 59.69 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3711,7 +3913,7 @@
 		(fields_autoplaced yes)
 		(uuid "db0fc8ad-855c-4265-8893-6f9cabc2ac6e")
 		(property "Reference" "#PWR043"
-			(at 59.69 60.96 0)
+			(at 59.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3922,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 59.69 52.07 0)
+			(at 59.69 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 57.15 0)
+			(at 59.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 57.15 0)
+			(at 59.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 59.69 57.15 0)
+			(at 59.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -3850,7 +4052,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C471J5GACTU"
+		(property "MPN" "08053C471KAT2A "
 			(at 134.62 72.39 0)
 			(effects
 				(font
