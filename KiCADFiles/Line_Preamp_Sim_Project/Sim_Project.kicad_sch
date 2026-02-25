@@ -2524,7 +2524,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text ".options gmin=1e-10 reltol=0.003 abstol=1pA vntol=10uV tmin=1n\n.options gmin_stepping=yes\n.options method=gear"
+	(text ".options gmin=1e-10 reltol=0.003 abstol=1pA vntol=10uV tmin=1n\n.options gmin_stepping=yes\n.options method=gear\n.include \"/home/sam-shersher/SuperAudioBoard/KiCADFiles/Models/\""
 		(exclude_from_sim no)
 		(at 204.216 51.308 0)
 		(effects

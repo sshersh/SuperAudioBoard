@@ -7197,24 +7197,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_2Pole"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7239,7 +7239,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2-polar test point"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7248,7 +7248,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "point tp"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7257,7 +7265,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7266,335 +7274,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Audio:NCJ5FI-H"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCJ5FI-H"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H_Horizontal"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.neutrik.com/en/product/ncj5fi-h"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) mono jack without switching contact, horizontal PCB mount, retention spring"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "xlr connector neutrik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*XLR*6.35mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NCJ5FI-H_1_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.556 0)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -3.556)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.556 0)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "1"
-					(at -3.556 1.778 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-							(bold yes)
-						)
-					)
-				)
-				(text "3"
-					(at 0 -1.778 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-							(bold yes)
-						)
-					)
-				)
-				(text "2"
-					(at 3.556 1.778 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-							(bold yes)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NCJ5FI-H_2_1"
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -7603,174 +7299,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Audio:NRJ4HF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NRJ4HF"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HF_Horizontal"
-				(at -1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hf"
-				(at -1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Slim Jacks, 6.35mm (1/4in) mono jack, switched, fully threaded nose"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack dual receptacle mono headphones phone TS connector neutrik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NRJ4HF_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NRJ4HF_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -7779,111 +7311,27 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 4.826) (xy 0.889 4.318)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy -0.635 5.08) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 2.54) (xy 0.635 4.826) (xy 0.381 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
 					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7893,15 +7341,219 @@
 				)
 				(pin passive line
 					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "TN"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13091,7 +12743,7 @@
 	)
 	(text "Gang 2 resistors for power rating 100 mA\n"
 		(exclude_from_sim no)
-		(at 65.786 190.5 0)
+		(at 84.582 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13101,7 +12753,7 @@
 	)
 	(text "Output B"
 		(exclude_from_sim no)
-		(at 265.176 31.496 0)
+		(at 256.54 32.004 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13160,7 +12812,7 @@
 	)
 	(text "Line / Mic"
 		(exclude_from_sim no)
-		(at 72.898 153.67 0)
+		(at 64.008 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13173,7 +12825,7 @@
 	)
 	(text "Output A"
 		(exclude_from_sim no)
-		(at 264.668 62.484 0)
+		(at 259.588 61.722 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13221,34 +12873,16 @@
 		(uuid "042d952b-2b46-4359-8f43-b12a2338b68f")
 	)
 	(junction
-		(at 257.81 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "048bf5cd-12a1-460d-a607-c67c0792e066")
-	)
-	(junction
 		(at 25.4 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eb4835c-2629-4a3f-ae10-330b139706a5")
 	)
 	(junction
-		(at 25.4 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14a52e17-5f53-412d-b6b4-d8fadf985279")
-	)
-	(junction
 		(at 129.54 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24687632-5fa4-4ea3-b84a-c9e6b9aaa524")
-	)
-	(junction
-		(at 45.72 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b340a3e-9c18-4eaa-abe0-ab68707f198c")
 	)
 	(junction
 		(at 247.65 69.85)
@@ -13269,28 +12903,16 @@
 		(uuid "414848ac-f433-4739-907c-a72b424509a1")
 	)
 	(junction
-		(at 60.96 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "414eec70-0517-40dc-acd0-725417228159")
-	)
-	(junction
 		(at 139.7 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41e7effb-350f-4266-9c09-5e16109781e5")
 	)
 	(junction
-		(at 53.34 128.27)
+		(at 87.63 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a26cc59-25c7-45a3-9f66-4ca4ea68211d")
-	)
-	(junction
-		(at 92.71 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f5d2841-ba45-497e-9b81-f863993317f4")
+		(uuid "50d45680-5814-4ff2-b21c-df0bb73106e8")
 	)
 	(junction
 		(at 125.73 29.21)
@@ -13335,22 +12957,10 @@
 		(uuid "729bcd77-ddc5-46dd-9fc6-79fed57110b0")
 	)
 	(junction
-		(at 257.81 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b1a85ec-a8b2-4856-af13-6e3ddb6233a0")
-	)
-	(junction
 		(at 123.19 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "806aa677-1172-4d83-84e2-ee333c11231f")
-	)
-	(junction
-		(at 55.88 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95cd0e9b-c316-49a2-adf6-2fb52994057f")
 	)
 	(junction
 		(at 40.64 44.45)
@@ -13395,7 +13005,7 @@
 		(uuid "f3ce4615-58a9-4473-9b4f-1e9870924f21")
 	)
 	(junction
-		(at 92.71 179.07)
+		(at 83.82 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc38e92b-bc08-4404-81c7-0f8437f6e6bd")
@@ -13430,7 +13040,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 40.64) (xy 257.81 40.64)
+			(xy 247.65 40.64) (xy 264.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13467,6 +13077,16 @@
 			(type default)
 		)
 		(uuid "0ce22af1-a77d-49cc-b736-da2f268509c6")
+	)
+	(wire
+		(pts
+			(xy 64.77 127) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9a95b1-24e4-4980-8caa-b090b0b01443")
 	)
 	(wire
 		(pts
@@ -13540,13 +13160,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 128.27) (xy 53.34 128.27)
+			(xy 87.63 180.34) (xy 87.63 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ac2b089-f6b0-4264-bb3c-6d8fb5b50dde")
+		(uuid "1ad85f89-37b4-4ae4-8b77-e4b8cf04f686")
 	)
 	(wire
 		(pts
@@ -13567,16 +13187,6 @@
 			(type default)
 		)
 		(uuid "1dbe85b4-f823-4f1f-973e-467a8c07ddb1")
-	)
-	(wire
-		(pts
-			(xy 257.81 69.85) (xy 267.97 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e6a308f-1560-4558-9634-ff5c7fbfff3b")
 	)
 	(wire
 		(pts
@@ -13607,6 +13217,16 @@
 			(type default)
 		)
 		(uuid "24fe4ad8-fb48-4f6b-8906-e26432537ce9")
+	)
+	(wire
+		(pts
+			(xy 26.67 166.37) (xy 27.94 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256ae630-3546-4416-8744-da7c82a98c06")
 	)
 	(wire
 		(pts
@@ -13660,7 +13280,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 184.15) (xy 100.33 184.15)
+			(xy 83.82 176.53) (xy 87.63 176.53)
 		)
 		(stroke
 			(width 0)
@@ -13760,6 +13380,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 140.97) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba925fd-bc19-43d4-a0e2-bd615f658dad")
+	)
+	(wire
+		(pts
 			(xy 214.63 148.59) (xy 214.63 156.21)
 		)
 		(stroke
@@ -13767,16 +13397,6 @@
 			(type default)
 		)
 		(uuid "3cdbfd97-f040-4b82-bb57-ac087e61bc94")
-	)
-	(wire
-		(pts
-			(xy 257.81 40.64) (xy 267.97 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2dd0c6-f9ea-4856-9365-e9783f1fe50d")
 	)
 	(wire
 		(pts
@@ -13820,7 +13440,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 168.91) (xy 93.98 168.91)
+			(xy 77.47 161.29) (xy 92.71 161.29)
 		)
 		(stroke
 			(width 0)
@@ -13850,6 +13470,36 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 74.93) (xy 260.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a418bb0-38c3-43cd-88cb-0f2ffbe33c16")
+	)
+	(wire
+		(pts
+			(xy 27.94 166.37) (xy 27.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa6bc85-9780-40d1-ba00-165daefc6b96")
+	)
+	(wire
+		(pts
+			(xy 87.63 182.88) (xy 88.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acdb9ea-cabe-42f1-85d6-ff60ae2cbb80")
+	)
+	(wire
+		(pts
 			(xy 48.26 44.45) (xy 48.26 41.91)
 		)
 		(stroke
@@ -13857,16 +13507,6 @@
 			(type default)
 		)
 		(uuid "4bbd796b-3c58-4305-97b8-2fd25552dd0d")
-	)
-	(wire
-		(pts
-			(xy 49.53 128.27) (xy 53.34 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c33d768-c830-4626-bfed-c337aee22847")
 	)
 	(wire
 		(pts
@@ -13910,13 +13550,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 45.72) (xy 266.7 46.99)
+			(xy 26.67 163.83) (xy 34.29 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50b4391f-d652-4d5f-a1f3-07b82f78bf5b")
+		(uuid "4fdb9429-7015-4c95-a1dc-ace6f7cbfc22")
+	)
+	(wire
+		(pts
+			(xy 64.77 125.73) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5195a69a-361c-414b-8901-9434d4cdfc98")
 	)
 	(wire
 		(pts
@@ -13960,26 +13610,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 173.99) (xy 43.18 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "568ce2b3-b678-4a8a-be18-977a9ec325d7")
-	)
-	(wire
-		(pts
-			(xy 55.88 146.05) (xy 68.58 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569353ab-ec22-4d65-bc0f-e693bd03025c")
-	)
-	(wire
-		(pts
 			(xy 105.41 71.12) (xy 73.66 71.12)
 		)
 		(stroke
@@ -14000,16 +13630,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 128.27) (xy 53.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572271e4-ea72-4a89-a29f-34a47da0b599")
-	)
-	(wire
-		(pts
 			(xy 247.65 77.47) (xy 247.65 80.01)
 		)
 		(stroke
@@ -14017,16 +13637,6 @@
 			(type default)
 		)
 		(uuid "5adbed0f-3848-4377-8d58-91d6fb266dd3")
-	)
-	(wire
-		(pts
-			(xy 20.32 177.8) (xy 20.32 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b774f59-b414-4c46-be6d-a352b378ccfc")
 	)
 	(wire
 		(pts
@@ -14087,6 +13697,16 @@
 			(type default)
 		)
 		(uuid "5fd56a4f-baf1-458b-ac4a-2ec96990905a")
+	)
+	(wire
+		(pts
+			(xy 87.63 186.69) (xy 87.63 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe15319-e067-443e-856b-75a96a46c6c8")
 	)
 	(wire
 		(pts
@@ -14160,16 +13780,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 168.91) (xy 43.18 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68af2cf4-7363-4b2f-b18e-9bd12e07b1db")
-	)
-	(wire
-		(pts
 			(xy 73.66 71.12) (xy 73.66 29.21)
 		)
 		(stroke
@@ -14200,23 +13810,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 166.37) (xy 71.12 166.37)
+			(xy 59.69 158.75) (xy 62.23 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b25d55d-a0f5-4785-8fe2-312a4853b63b")
-	)
-	(wire
-		(pts
-			(xy 50.8 156.21) (xy 50.8 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc48483-88ff-456c-ae75-9c79c9d56690")
 	)
 	(wire
 		(pts
@@ -14227,6 +13827,16 @@
 			(type default)
 		)
 		(uuid "74267806-649e-41ab-a920-88ecc00572d2")
+	)
+	(wire
+		(pts
+			(xy 87.63 176.53) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e25ca8-fbc3-4689-b6f2-256f7d305105")
 	)
 	(wire
 		(pts
@@ -14250,7 +13860,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 171.45) (xy 71.12 171.45)
+			(xy 52.07 163.83) (xy 62.23 163.83)
 		)
 		(stroke
 			(width 0)
@@ -14277,16 +13887,6 @@
 			(type default)
 		)
 		(uuid "794c4bf1-f037-43d2-b24d-05813b98c14a")
-	)
-	(wire
-		(pts
-			(xy 27.94 176.53) (xy 39.37 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a65bc5d-72a6-4310-b919-b2fc927cfcba")
 	)
 	(wire
 		(pts
@@ -14330,16 +13930,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 148.59) (xy 43.18 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db44132-046f-44e4-aacc-49a7bdd15b20")
-	)
-	(wire
-		(pts
 			(xy 147.32 29.21) (xy 129.54 29.21)
 		)
 		(stroke
@@ -14357,16 +13947,6 @@
 			(type default)
 		)
 		(uuid "7ed76c41-cba8-4a7d-a80e-b2151fcf3b60")
-	)
-	(wire
-		(pts
-			(xy 25.4 176.53) (xy 25.4 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7edf2ca6-959a-4fe1-9eaf-ef2386d66703")
 	)
 	(wire
 		(pts
@@ -14440,16 +14020,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 45.72) (xy 267.97 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c274ac9-1a0b-4824-849a-c36a70d9e02e")
-	)
-	(wire
-		(pts
 			(xy 120.65 93.98) (xy 129.54 93.98)
 		)
 		(stroke
@@ -14470,7 +14040,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 146.05) (xy 68.58 166.37)
+			(xy 59.69 138.43) (xy 59.69 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14530,6 +14100,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 138.43) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9823910f-817c-48c5-9a52-2e99a544105c")
+	)
+	(wire
+		(pts
 			(xy 161.29 73.66) (xy 161.29 172.72)
 		)
 		(stroke
@@ -14540,7 +14120,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 179.07) (xy 92.71 179.07)
+			(xy 92.71 161.29) (xy 92.71 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9092bd-e3e5-40c9-8105-a51163c380f4")
+	)
+	(wire
+		(pts
+			(xy 91.44 171.45) (xy 83.82 171.45)
 		)
 		(stroke
 			(width 0)
@@ -14600,17 +14190,37 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 74.93) (xy 267.97 74.93)
+			(xy 260.35 46.99) (xy 260.35 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af1f0fde-c91c-4b60-b1ae-e0ea2ceb54b8")
+		(uuid "a3eacbec-5e5f-478d-b186-cafb837cb500")
 	)
 	(wire
 		(pts
-			(xy 67.31 179.07) (xy 71.12 179.07)
+			(xy 44.45 140.97) (xy 46.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa077f24-d0f1-4230-8bd9-cd387c592ca3")
+	)
+	(wire
+		(pts
+			(xy 26.67 161.29) (xy 34.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb3fe60-a47d-4944-a896-20b10bec2c5c")
+	)
+	(wire
+		(pts
+			(xy 58.42 171.45) (xy 62.23 171.45)
 		)
 		(stroke
 			(width 0)
@@ -14630,16 +14240,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 146.05) (xy 55.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b278d1aa-2c92-49db-862a-75002ee46716")
-	)
-	(wire
-		(pts
 			(xy 86.36 123.19) (xy 91.44 123.19)
 		)
 		(stroke
@@ -14647,16 +14247,6 @@
 			(type default)
 		)
 		(uuid "b3331868-2dbf-4db0-953e-9878ab0e8611")
-	)
-	(wire
-		(pts
-			(xy 39.37 176.53) (xy 39.37 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b0ad94-edd1-473a-8426-92d893008e80")
 	)
 	(wire
 		(pts
@@ -14677,6 +14267,16 @@
 			(type default)
 		)
 		(uuid "b986d7cf-322b-47e1-bfc5-6c818353afcd")
+	)
+	(wire
+		(pts
+			(xy 260.35 72.39) (xy 264.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0d2190-259d-40c6-8083-2a9557ccf0d5")
 	)
 	(wire
 		(pts
@@ -14750,6 +14350,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 168.91) (xy 93.98 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd683b4d-c0c9-4cee-b23f-bf35345c3388")
+	)
+	(wire
+		(pts
 			(xy 149.86 27.94) (xy 149.86 66.04)
 		)
 		(stroke
@@ -14760,16 +14370,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 156.21) (xy 50.8 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceecfc46-9c2b-4c53-aa03-0a197d8d5dd7")
-	)
-	(wire
-		(pts
 			(xy 248.92 128.27) (xy 248.92 125.73)
 		)
 		(stroke
@@ -14777,16 +14377,6 @@
 			(type default)
 		)
 		(uuid "cf5063e2-bee8-4e95-8d37-fffc36e88b86")
-	)
-	(wire
-		(pts
-			(xy 55.88 133.35) (xy 55.88 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7a9c50-f396-42b7-a130-acbd4bff4924")
 	)
 	(wire
 		(pts
@@ -14850,6 +14440,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 43.18) (xy 264.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d097e7-bd47-4b2e-8087-89b8f7fc008a")
+	)
+	(wire
+		(pts
 			(xy 146.05 93.98) (xy 228.6 93.98)
 		)
 		(stroke
@@ -14857,6 +14457,16 @@
 			(type default)
 		)
 		(uuid "d6e3adb3-f6a5-4e4a-b6fe-8099b68495a4")
+	)
+	(wire
+		(pts
+			(xy 88.9 180.34) (xy 87.63 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d838687c-92f9-46ce-9de5-1ecbd00c61f5")
 	)
 	(wire
 		(pts
@@ -14897,16 +14507,6 @@
 			(type default)
 		)
 		(uuid "dbb97f30-e10a-45d1-b176-7797e720a98a")
-	)
-	(wire
-		(pts
-			(xy 266.7 74.93) (xy 266.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc63efd-2f86-4da1-ada5-570fd84e1ef0")
 	)
 	(wire
 		(pts
@@ -14990,16 +14590,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 152.4) (xy 45.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d3100b-a489-4aa5-a284-768e37cae6c1")
-	)
-	(wire
-		(pts
 			(xy 177.8 78.74) (xy 201.93 78.74)
 		)
 		(stroke
@@ -15017,36 +14607,6 @@
 			(type default)
 		)
 		(uuid "e45a952b-c012-4048-a71e-db64c22257ca")
-	)
-	(wire
-		(pts
-			(xy 50.8 148.59) (xy 45.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e489273d-8f39-4837-8080-13d86a60189f")
-	)
-	(wire
-		(pts
-			(xy 60.96 133.35) (xy 55.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5bb4c72-34d5-4e23-b78c-7ea88f656e3d")
-	)
-	(wire
-		(pts
-			(xy 49.53 123.19) (xy 60.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c5a0ff-23da-4e4b-a47c-48af4369f62c")
 	)
 	(wire
 		(pts
@@ -15110,16 +14670,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 177.8) (xy 25.4 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f29e767e-0b47-4e99-8224-9df288e8f8c5")
-	)
-	(wire
-		(pts
 			(xy 78.74 25.4) (xy 90.17 25.4)
 		)
 		(stroke
@@ -15180,7 +14730,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 69.85) (xy 257.81 69.85)
+			(xy 247.65 69.85) (xy 264.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -15230,16 +14780,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 177.8) (xy 20.32 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc438cdb-60f2-457b-a245-cfb2ad7ab0d6")
-	)
-	(wire
-		(pts
 			(xy 162.56 41.91) (xy 166.37 41.91)
 		)
 		(stroke
@@ -15250,7 +14790,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 179.07) (xy 92.71 179.07)
+			(xy 77.47 171.45) (xy 83.82 171.45)
 		)
 		(stroke
 			(width 0)
@@ -15279,7 +14819,7 @@
 		(uuid "ff0b5dc6-5aaa-45ed-b500-cc291c377b91")
 	)
 	(label "REL_CTRL"
-		(at 88.9 179.07 0)
+		(at 80.01 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18228,96 +17768,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 257.81 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0668359f-5ec8-489f-842f-45a232cbd073")
-		(property "Reference" "TP5"
-			(at 260.35 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 260.35 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 257.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 257.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 257.81 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 257.81 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9894dffb-b70d-4237-836e-d6352c75bb92")
-		)
-		(pin "1"
-			(uuid "ce536ac7-baf9-4f52-a0fa-0fbb4f2318d5")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
-		(at 78.74 173.99 90)
+		(at 69.85 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18326,7 +17778,7 @@
 		(fields_autoplaced yes)
 		(uuid "094acc2f-b30d-49dc-add9-a7d3beb265cf")
 		(property "Reference" "K2"
-			(at 78.74 158.75 90)
+			(at 69.85 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18334,7 +17786,7 @@
 			)
 		)
 		(property "Value" "Fujitsu_FTR-LYCA005x"
-			(at 78.74 161.29 90)
+			(at 69.85 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,7 +17794,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-			(at 80.01 162.56 0)
+			(at 71.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +17804,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 82.55 157.48 0)
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18362,7 +17814,7 @@
 			)
 		)
 		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 78.74 173.99 0)
+			(at 69.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18397,7 +17849,7 @@
 	(symbol
 		(lib_name "GND_10")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 257.81 50.8 0)
+		(at 260.35 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18405,7 +17857,7 @@
 		(dnp no)
 		(uuid "17947f93-bc1b-4b57-bd1b-ded0f0c6212e")
 		(property "Reference" "#PWR034"
-			(at 257.81 50.8 0)
+			(at 260.35 46.99 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -18414,7 +17866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 52.578 0)
+			(at 260.35 48.768 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -18423,7 +17875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 50.8 0)
+			(at 260.35 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18431,7 +17883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 50.8 0)
+			(at 260.35 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18439,7 +17891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 50.8 0)
+			(at 260.35 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18459,98 +17911,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 55.88 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "19d2fe79-63fe-4b40-a6c0-b0b2cfebb752")
-		(property "Reference" "TP4"
-			(at 58.42 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 58.42 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 55.88 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 55.88 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 55.88 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 55.88 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa49ab7f-2d58-4c05-8d28-4885c40b12c1")
-		)
-		(pin "1"
-			(uuid "d38e57c3-14e4-42c3-9e4a-99dc04f1d22a")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_10")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 257.81 80.01 0)
+		(at 260.35 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18558,7 +17921,7 @@
 		(dnp no)
 		(uuid "20f7d6a9-7f94-4127-9828-c672b6e911a8")
 		(property "Reference" "#PWR038"
-			(at 257.81 80.01 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -18567,7 +17930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 81.788 0)
+			(at 260.35 76.708 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -18576,7 +17939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 80.01 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18584,7 +17947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 80.01 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18592,7 +17955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 80.01 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18698,6 +18061,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 269.24 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b745341-375f-41ac-830f-df316edf496c")
+		(property "Reference" "J5"
+			(at 268.605 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MONO JACK"
+			(at 268.605 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 269.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 269.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a39feb76-f248-4c99-b361-ddc6d8ae015b")
+		)
+		(pin "2"
+			(uuid "0013d075-fe17-4639-ab2b-fdd59d257df8")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 247.65 74.93 0)
 		(mirror x)
@@ -18784,162 +18215,138 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:NCJ5FI-H")
-		(at 38.1 146.05 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3939d55c-3e17-47c8-b48e-0b0a63ae315c")
-		(property "Reference" "J1"
-			(at 37.465 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCJ5FI-H"
-			(at 37.465 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H_Horizontal"
-			(at 38.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/ncj5fi-h"
-			(at 38.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) mono jack without switching contact, horizontal PCB mount, retention spring"
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NCJ5FI-H"
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6217e389-12cb-4e9f-8b37-2af7726a53bb")
-		)
-		(pin "2"
-			(uuid "593741bc-623d-4d99-be50-91efaebd0b46")
-		)
-		(pin "S"
-			(uuid "c83e1f3c-cdbc-4a28-8640-067b5e066e98")
-		)
-		(pin "T"
-			(uuid "d2f5ef77-a4e7-41f9-a740-81bd924b7b12")
-		)
-		(pin "G"
-			(uuid "ff7ef494-6c58-44d8-a68c-a21bebc26fc0")
-		)
-		(pin "3"
-			(uuid "a87369e2-e8ff-4d9e-9e02-44bc5ebd7f61")
-		)
-		(instances
-			(project ""
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "J1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_28")
-		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 266.7 76.2 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 269.24 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3da316ca-6214-44b4-b790-b1e473502097")
-		(property "Reference" "#PWR066"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 77.978 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 76.2 0)
+		(uuid "3cb8bc97-3436-447c-8cd9-6232c80dcc25")
+		(property "Reference" "J6"
+			(at 268.605 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Value" "MONO JACK"
+			(at 268.605 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "8b9600aa-9067-4825-81c5-f0444b8449c5")
+			(uuid "cfdfee3f-3885-4d8d-9cec-57dc9a32ab67")
+		)
+		(pin "2"
+			(uuid "f72f6d9b-afee-4937-89fd-fe09be103631")
 		)
 		(instances
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "#PWR066")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 93.98 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ecb63bf-2cab-49cc-9041-1ee57c0b6a37")
+		(property "Reference" "J7"
+			(at 95.25 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MONO JACK"
+			(at 95.25 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 93.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "853c6803-2a5b-414f-b8b5-90ccf733d4da")
+		)
+		(pin "2"
+			(uuid "a3cf0825-ccab-44d6-9dfb-56f4ed5a45b6")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -19098,15 +18505,15 @@
 	(symbol
 		(lib_name "GND_28")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 45.72 152.4 0)
+		(at 64.77 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62592e9d-8709-43df-ae35-2cd368a0ecb8")
-		(property "Reference" "#PWR021"
-			(at 45.72 152.4 0)
+		(uuid "5d56bee6-c71e-4f2d-9043-ca7f9aa62d83")
+		(property "Reference" "#PWR022"
+			(at 64.77 127 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19115,7 +18522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 154.178 0)
+			(at 64.77 128.778 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19124,7 +18531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 152.4 0)
+			(at 64.77 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19132,7 +18539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 152.4 0)
+			(at 64.77 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19140,7 +18547,142 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 152.4 0)
+			(at 64.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d88deeea-6953-45d3-99df-edc5165ae4ff")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 21.59 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6257843a-904b-4267-9f4e-778e585082e5")
+		(property "Reference" "J1"
+			(at 22.225 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XLR"
+			(at 22.225 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 21.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 21.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79d3cf31-24cb-476d-a75c-d752b40111c3")
+		)
+		(pin "3"
+			(uuid "1f608e83-133c-4e71-a359-28b991e96479")
+		)
+		(pin "2"
+			(uuid "8bc9fc36-feed-489b-ac07-42b8c56fd935")
+		)
+		(instances
+			(project ""
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_28")
+		(lib_id "SuperAudioBoard-rescue:GND")
+		(at 46.99 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62592e9d-8709-43df-ae35-2cd368a0ecb8")
+		(property "Reference" "#PWR021"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 144.018 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19161,7 +18703,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 100.33 181.61 180)
+		(at 91.44 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19170,7 +18712,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f003694-d7ab-402d-80c5-b6d98a01ab1b")
 		(property "Reference" "R37"
-			(at 95.25 181.61 90)
+			(at 86.36 173.99 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19178,7 +18720,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 97.79 181.61 90)
+			(at 88.9 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19186,7 +18728,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
-			(at 100.33 181.61 0)
+			(at 91.44 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19195,7 +18737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 181.61 0)
+			(at 91.44 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19204,7 +18746,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 100.33 181.61 0)
+			(at 91.44 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19213,7 +18755,7 @@
 			)
 		)
 		(property "MPN" "CRCW0805100RFKEA"
-			(at 100.33 181.61 90)
+			(at 91.44 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19222,7 +18764,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 100.33 181.61 90)
+			(at 91.44 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19240,97 +18782,6 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:NRJ4HF")
-		(at 273.05 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70c9c24d-ef8e-4c5a-b9a1-7fb4d314b17b")
-		(property "Reference" "J4"
-			(at 273.685 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ4HF"
-			(at 273.685 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HF_Horizontal"
-			(at 274.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hf"
-			(at 274.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Slim Jacks, 6.35mm (1/4in) mono jack, switched, fully threaded nose"
-			(at 273.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NRJ4HF"
-			(at 273.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 273.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "69e8d442-0083-4995-8e08-089e3959be85")
-		)
-		(pin "TN"
-			(uuid "30b565e4-604d-4b7d-b966-d6977db040bd")
-		)
-		(pin "T"
-			(uuid "8722491e-2455-4f9b-9852-966b09f4d90c")
-		)
-		(pin "SN"
-			(uuid "c78990b6-9e70-4e75-b302-e34c67951e9b")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19423,494 +18874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:NRJ4HF")
-		(at 44.45 123.19 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "76a4ce77-29bd-47a5-86de-cb0d55e7fcba")
-		(property "Reference" "J2"
-			(at 43.815 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ4HF"
-			(at 43.815 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HF_Horizontal"
-			(at 43.18 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hf"
-			(at 43.18 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Slim Jacks, 6.35mm (1/4in) mono jack, switched, fully threaded nose"
-			(at 44.45 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NRJ4HF"
-			(at 44.45 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 44.45 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "d1dbd880-0f36-42e8-a7cb-002fa0ff1473")
-		)
-		(pin "TN"
-			(uuid "fe629f57-cf46-4b16-a300-1710b713afce")
-		)
-		(pin "T"
-			(uuid "57dd999b-1ab8-4046-a8a7-7e2b2e5c2e92")
-		)
-		(pin "SN"
-			(uuid "6cd8a06b-d798-4e37-adb1-479bd5ee60e5")
-		)
-		(instances
-			(project ""
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 60.96 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7e007c58-3e19-4c68-a7e2-ae3747bc8605")
-		(property "Reference" "TP3"
-			(at 63.5 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 63.5 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 60.96 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 60.96 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "880e1975-be8e-4da4-a7b4-930b0c289b67")
-		)
-		(pin "1"
-			(uuid "f79a9b2b-3531-438f-a816-954d4171864b")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_28")
-		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 53.34 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87905a1e-deda-474b-9939-67944b9d26f4")
-		(property "Reference" "#PWR046"
-			(at 53.34 132.08 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 133.858 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 132.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 132.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f356402c-1eb9-4926-a5c2-23130b44f43b")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_28")
-		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 266.7 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ab9f5df-f45c-405e-8726-4b65a123f135")
-		(property "Reference" "#PWR022"
-			(at 266.7 46.99 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 48.768 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91f7dd92-632a-4b48-9309-336f442a8fc4")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 257.81 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9c21d046-87e5-42c9-9544-c36bb31fea62")
-		(property "Reference" "TP6"
-			(at 260.35 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 260.35 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 257.81 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 257.81 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d2589493-a0e2-41d9-802f-935f9785627f")
-		)
-		(pin "1"
-			(uuid "8d1e989e-2d46-4f76-9fa5-c49a1f69bc71")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:NRJ4HF")
-		(at 273.05 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cecd69d-4b79-433e-aeca-1f6040322070")
-		(property "Reference" "J5"
-			(at 273.685 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ4HF"
-			(at 273.685 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ4HF_Horizontal"
-			(at 274.32 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hf"
-			(at 274.32 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Slim Jacks, 6.35mm (1/4in) mono jack, switched, fully threaded nose"
-			(at 273.05 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NRJ4HF"
-			(at 273.05 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 273.05 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "1cd0e4c2-ae4d-4d7e-a033-870670fc4a28")
-		)
-		(pin "TN"
-			(uuid "5f7c999f-14d7-486d-ae26-453518b9249d")
-		)
-		(pin "T"
-			(uuid "ed58651d-790b-40a9-bb0e-98ca01deb070")
-		)
-		(pin "SN"
-			(uuid "3be274b6-b566-489a-8790-82c581f50041")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_10")
 		(lib_id "SuperAudioBoard-rescue:GND")
 		(at 247.65 80.01 0)
@@ -19969,104 +18932,6 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:NCJ5FI-H")
-		(at 27.94 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a1d28bcd-03fb-466e-908e-6b77d4d67a7c")
-		(property "Reference" "J1"
-			(at 27.94 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCJ5FI-H"
-			(at 27.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H_Horizontal"
-			(at 27.94 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/ncj5fi-h"
-			(at 27.94 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) mono jack without switching contact, horizontal PCB mount, retention spring"
-			(at 27.94 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NCJ5FI-H"
-			(at 27.94 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 27.94 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6217e389-12cb-4e9f-8b37-2af7726a53bc")
-		)
-		(pin "2"
-			(uuid "593741bc-623d-4d99-be50-91efaebd0b47")
-		)
-		(pin "S"
-			(uuid "c83e1f3c-cdbc-4a28-8640-067b5e066e99")
-		)
-		(pin "T"
-			(uuid "d2f5ef77-a4e7-41f9-a740-81bd924b7b13")
-		)
-		(pin "G"
-			(uuid "ff7ef494-6c58-44d8-a68c-a21bebc26fc1")
-		)
-		(pin "3"
-			(uuid "a87369e2-e8ff-4d9e-9e02-44bc5ebd7f62")
-		)
-		(instances
-			(project ""
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -20280,36 +19145,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 92.71 189.23 270)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 39.37 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9eed085-caeb-4e16-9ada-b6ad0ffc97af")
-		(property "Reference" "TP7"
-			(at 95.25 189.2299 90)
+		(uuid "ab251070-e3c6-4972-a4bb-db0f0e67c0b9")
+		(property "Reference" "J2"
+			(at 40.005 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_2Pole"
-			(at 90.17 187.9601 90)
+		(property "Value" "MONO JACK"
+			(at 40.005 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 92.71 189.23 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20318,7 +19180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 189.23 0)
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20326,43 +19188,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-polar test point"
-			(at 92.71 189.23 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 39.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" ""
-			(at 92.71 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 92.71 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68b61e8d-3711-4105-a277-d8b25a9ead1c")
 		)
 		(pin "1"
-			(uuid "d33aa36f-1840-4f2d-99f4-c6b987c185f1")
+			(uuid "266902b5-667e-4de2-8003-22115e28c817")
+		)
+		(pin "2"
+			(uuid "d6cdfcd1-ce27-48dd-b0db-028cbd628a01")
 		)
 		(instances
-			(project "SuperAudioBoard"
+			(project ""
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "TP7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -20543,7 +19387,7 @@
 	(symbol
 		(lib_name "GND_28")
 		(lib_id "SuperAudioBoard-rescue:GND")
-		(at 92.71 194.31 0)
+		(at 87.63 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20551,7 +19395,7 @@
 		(dnp no)
 		(uuid "bfe7e816-35b1-47f1-b2d1-721e39005924")
 		(property "Reference" "#PWR070"
-			(at 92.71 194.31 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20560,7 +19404,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 196.088 0)
+			(at 87.63 188.468 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20569,7 +19413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 194.31 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20577,7 +19421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 194.31 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20585,7 +19429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 194.31 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20843,7 +19687,7 @@
 	(symbol
 		(lib_name "+5VA_3")
 		(lib_id "SuperAudioBoard-rescue:+5VA")
-		(at 67.31 179.07 0)
+		(at 58.42 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20851,7 +19695,7 @@
 		(dnp no)
 		(uuid "c53b2a68-2bc7-473f-8f4d-a51bc29dfbe6")
 		(property "Reference" "#PWR071"
-			(at 67.31 175.768 0)
+			(at 58.42 168.148 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -20860,7 +19704,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 67.31 176.53 0)
+			(at 58.42 168.91 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20868,7 +19712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 179.07 0)
+			(at 58.42 171.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20876,7 +19720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 179.07 0)
+			(at 58.42 171.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20884,7 +19728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 179.07 0)
+			(at 58.42 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21162,7 +20006,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 25.4 180.34 0)
+		(at 27.94 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21171,7 +20015,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaba85f5-57fc-4b3a-9553-6331d03a1a0d")
 		(property "Reference" "#PWR047"
-			(at 25.4 185.42 0)
+			(at 27.94 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,7 +20024,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 25.273 184.15 0)
+			(at 27.813 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21188,7 +20032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 181.61 0)
+			(at 27.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21197,7 +20041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 181.61 0)
+			(at 27.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21206,7 +20050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 25.4 180.34 0)
+			(at 27.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21313,33 +20157,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 92.71 181.61 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 55.88 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fea23657-cd36-47ee-84e8-7849ccec5533")
-		(property "Reference" "R36"
-			(at 87.63 181.61 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 90.17 181.61 90)
+		(uuid "fb43f141-8105-4ea0-b725-75e53b64d884")
+		(property "Reference" "J4"
+			(at 56.515 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
-			(at 92.71 181.61 0)
+		(property "Value" "MONO JACK"
+			(at 56.515 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 55.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +20192,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 181.61 0)
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceafec01-866a-400d-b666-e1e40b234e25")
+		)
+		(pin "2"
+			(uuid "c181b12d-5357-4698-ae56-9ca8a09e156e")
+		)
+		(instances
+			(project "SuperAudioBoard"
+				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 83.82 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fea23657-cd36-47ee-84e8-7849ccec5533")
+		(property "Reference" "R36"
+			(at 78.74 173.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 81.28 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21357,7 +20269,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 92.71 181.61 0)
+			(at 83.82 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21366,7 +20278,7 @@
 			)
 		)
 		(property "MPN" "CRCW0805100RFKEA"
-			(at 92.71 181.61 90)
+			(at 83.82 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21375,7 +20287,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 92.71 181.61 90)
+			(at 83.82 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21707,7 +20619,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 163.83)
+		(at 34.29 156.21)
 		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21723,7 +20635,7 @@
 		)
 		(uuid "cc56b259-b7b6-4889-861e-4cceeb5868cc")
 		(property "Sheetname" "MicPreamp"
-			(at 43.18 163.1184 0)
+			(at 34.29 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21732,7 +20644,7 @@
 			)
 		)
 		(property "Sheetfile" "MicPreamp.kicad_sch"
-			(at 43.18 179.6546 0)
+			(at 34.29 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21742,7 +20654,7 @@
 			)
 		)
 		(pin "IN_N" input
-			(at 43.18 173.99 180)
+			(at 34.29 163.83 180)
 			(uuid "42e57f7f-61e2-4d11-b206-75a5541c70da")
 			(effects
 				(font
@@ -21752,7 +20664,7 @@
 			)
 		)
 		(pin "IN_P" input
-			(at 43.18 168.91 180)
+			(at 34.29 161.29 180)
 			(uuid "1f7ffa8b-e6ed-43cd-a8c6-836018ca0761")
 			(effects
 				(font
@@ -21762,7 +20674,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 60.96 171.45 0)
+			(at 52.07 163.83 0)
 			(uuid "200f50d1-d853-4f3a-984a-5ff0f76e5ab9")
 			(effects
 				(font
