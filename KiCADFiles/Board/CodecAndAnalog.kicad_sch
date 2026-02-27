@@ -5553,143 +5553,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C_19"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.1524 -2.159 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SM* C? C1-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_19_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_19_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "C_2"
 			(pin_numbers
 				(hide yes)
@@ -12873,12 +12736,6 @@
 		(uuid "042d952b-2b46-4359-8f43-b12a2338b68f")
 	)
 	(junction
-		(at 25.4 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0eb4835c-2629-4a3f-ae10-330b139706a5")
-	)
-	(junction
 		(at 129.54 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12937,12 +12794,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65e17ac0-70de-450a-a849-7a195655f6b7")
-	)
-	(junction
-		(at 34.29 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f935bb6-482a-439c-8220-13837308e208")
 	)
 	(junction
 		(at 195.58 140.97)
@@ -13180,16 +13031,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 25.4 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbe85b4-f823-4f1f-973e-467a8c07ddb1")
-	)
-	(wire
-		(pts
 			(xy 134.62 22.86) (xy 125.73 22.86)
 		)
 		(stroke
@@ -13420,16 +13261,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 34.29 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403aed5c-ccfc-4b90-9409-4db4ec911358")
-	)
-	(wire
-		(pts
 			(xy 133.35 168.91) (xy 158.75 168.91)
 		)
 		(stroke
@@ -13600,7 +13431,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 29.21) (xy 19.05 29.21)
+			(xy 19.05 29.21) (xy 34.29 29.21)
 		)
 		(stroke
 			(width 0)
@@ -14490,16 +14321,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 29.21) (xy 25.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3068f2-f21b-49e3-9010-5aab31389396")
-	)
-	(wire
-		(pts
 			(xy 49.53 58.42) (xy 105.41 58.42)
 		)
 		(stroke
@@ -14617,16 +14438,6 @@
 			(type default)
 		)
 		(uuid "e71a4afd-2ca1-48bd-9d56-80261e188488")
-	)
-	(wire
-		(pts
-			(xy 25.4 29.21) (xy 25.4 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92902aa-411a-4cc4-ad97-0d04f7c84f88")
 	)
 	(wire
 		(pts
@@ -14828,6 +14639,16 @@
 		)
 		(uuid "050d27f0-0786-4649-ab9d-9e346e72dfcb")
 	)
+	(label "VD_FILT"
+		(at 53.34 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c909439-bfbe-4549-b077-00b8f270bae4")
+	)
 	(label "VCOM"
 		(at 138.43 93.98 180)
 		(effects
@@ -14934,7 +14755,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000544c1e6e")
 		(property "Reference" "U5"
 			(at 125.73 46.99 0)
@@ -14952,7 +14773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.74x4.75mm"
+		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -14960,7 +14781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://statics.cirrus.com/pubs/proDatasheet/CS4272_F2.pdf"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -15131,7 +14952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD_HandSoldering"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -17000,127 +16821,6 @@
 			(project "SuperAudioBoard"
 				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_19")
-		(lib_id "SuperAudioBoard-rescue:C")
-		(at 25.4 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000546e2ea8")
-		(property "Reference" "C19"
-			(at 25.4 34.29 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 25.5524 38.989 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
-			(at 26.3652 40.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG 1 Name" "Murata"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG1 PN" "GRM188R71E104KA01"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 Name" "TDK"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG 2 PN" "C1608X7R1E104K080AA"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10B104KB8NNNL"
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" ""
-			(at 25.4 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c36dc77-da2f-4e78-adb7-6d7e3ae576f6")
-		)
-		(pin "2"
-			(uuid "a02a09fe-0dbd-4743-8842-e5dfaba62481")
-		)
-		(instances
-			(project "SuperAudioBoard"
-				(path "/01f65e03-4e05-4001-87b4-b3e88e4198ab/00000000-0000-0000-0000-00005438c479"
-					(reference "C19")
 					(unit 1)
 				)
 			)
