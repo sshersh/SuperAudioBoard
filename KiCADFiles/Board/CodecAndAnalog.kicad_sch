@@ -14985,7 +14985,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG1 PN" "ECS-245.7-20-5PX-TR "
+		(property "MFG1 PN" "ABM3-24.576MHZ-B2-T "
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -15003,7 +15003,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG 2 PN" "9C-24.576MBBK-T"
+		(property "MFG 2 PN" "ABM3-24.576MHZ-B2-T "
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -15012,7 +15012,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ECS-245.7-20-5PX-TR "
+		(property "MPN" "ABM3-24.576MHZ-B2-T "
 			(at 91.44 43.18 0)
 			(effects
 				(font
