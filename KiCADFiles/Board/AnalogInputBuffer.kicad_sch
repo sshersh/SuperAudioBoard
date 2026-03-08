@@ -5351,6 +5351,12 @@
 		(uuid "b7509ea1-623a-45b8-a5d2-60a8d33ea262")
 	)
 	(junction
+		(at 144.78 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091aa3d6-f6d2-4e5f-a948-829dfbf47c28")
+	)
+	(junction
 		(at 170.18 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5373,18 +5379,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fcfaf13-53b6-482b-8043-f8a576649d02")
-	)
-	(junction
-		(at 158.75 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e4aa3ec-5c80-42f0-a967-5146b3aab08b")
-	)
-	(junction
-		(at 165.1 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54f28dd6-218d-4b7f-980f-09dec7175baf")
 	)
 	(junction
 		(at 124.46 66.04)
@@ -5421,6 +5415,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec4b216-968c-4b87-9fb5-c2fe76eba619")
+	)
+	(junction
+		(at 147.32 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6009ce2-3904-4a98-9bcb-44d6ab3e1b73")
 	)
 	(junction
 		(at 124.46 78.74)
@@ -5486,6 +5486,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 59.69) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214e7c2f-5c6b-402c-9cae-bdc5d39bb9ef")
+	)
+	(wire
+		(pts
 			(xy 171.45 81.28) (xy 184.15 81.28)
 		)
 		(stroke
@@ -5496,23 +5506,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 158.75 138.43)
+			(xy 144.78 59.69) (xy 147.32 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "293f0a34-a134-42ca-b85e-909ac1b4575f")
-	)
-	(wire
-		(pts
-			(xy 144.78 59.69) (xy 165.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd9a933-5f85-488b-ad04-95e17b9bbcfa")
+		(uuid "25c48391-ea91-45f5-961f-3c8726659fc2")
 	)
 	(wire
 		(pts
@@ -5563,16 +5563,6 @@
 			(type default)
 		)
 		(uuid "4b4a3da1-668b-4899-a133-b02286e974c8")
-	)
-	(wire
-		(pts
-			(xy 140.97 115.57) (xy 158.75 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd55f7c-5840-49ec-bdb3-960cec86cbff")
 	)
 	(wire
 		(pts
@@ -5656,16 +5646,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 165.1 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7939807a-d560-44e8-b5e2-f29bf61d66aa")
-	)
-	(wire
-		(pts
 			(xy 125.73 140.97) (xy 129.54 140.97)
 		)
 		(stroke
@@ -5686,13 +5666,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 171.45 81.28)
+			(xy 162.56 81.28) (xy 171.45 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "822afb18-1b85-41bf-9128-18984df9cfe2")
+	)
+	(wire
+		(pts
+			(xy 140.97 115.57) (xy 144.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88949f5a-0f05-4ebe-a4dd-b5be716d11fc")
 	)
 	(wire
 		(pts
@@ -5796,13 +5786,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 165.1 81.28)
+			(xy 144.78 115.57) (xy 144.78 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c63ac69f-58c3-423e-a8a7-d3de6c1b10d0")
+		(uuid "c82631b0-4646-422d-a9c7-8921057bd917")
 	)
 	(wire
 		(pts
@@ -6371,7 +6361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 153.3652 40.64 0)
 			(effects
 				(font
@@ -6505,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.392 67.31 90)
 			(effects
 				(font
@@ -6595,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 137.668 90)
 			(effects
 				(font
@@ -6720,7 +6710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.5852 100.33 0)
 			(effects
 				(font
@@ -6913,7 +6903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.5852 157.48 0)
 			(effects
 				(font
@@ -7104,7 +7094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 80.518 90)
 			(effects
 				(font
@@ -7229,7 +7219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 65.0748 0)
 			(effects
 				(font
@@ -7373,7 +7363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.1452 147.32 0)
 			(effects
 				(font
@@ -7497,7 +7487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 61.468 90)
 			(effects
 				(font
@@ -8050,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 140.208 90)
 			(effects
 				(font
@@ -8175,7 +8165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.24 120.9548 0)
 			(effects
 				(font
@@ -8453,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.21 83.058 90)
 			(effects
 				(font
@@ -8721,7 +8711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 134.62 117.348 90)
 			(effects
 				(font
@@ -8846,7 +8836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 94.9452 87.63 0)
 			(effects
 				(font
@@ -8989,7 +8979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.4152 90.17 0)
 			(effects
 				(font
