@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|113700000|114112500|5efc46e4-7245-4509-ac62-d5545c168902|58fcfeaf-c492-437d-9139-8d70aeafa1a0|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -1028,7 +1033,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "CAD/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
